@@ -35,8 +35,15 @@ typedef enum s_error_player
 	ERROR_CONFIG_MAP
 }			t_error_player;
 
+typedef enum s_error_map
+{
+	MAP_HEIGHT,
+	MAP_WIDTH
+}			t_error_map;
+
 void	check_parse_error(int error, t_game *game);
 void	error_texture(int error, t_game *game);
 void	error_player(int error, t_game *game);
+size_t	error_map(int error, t_game *game);
 
 #endif

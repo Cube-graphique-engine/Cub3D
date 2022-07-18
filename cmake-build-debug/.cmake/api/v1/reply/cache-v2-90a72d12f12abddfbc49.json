@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/mathismartini/CLionProjects/cube/cmake-build-debug"
+			"value" : "/Users/mathismartini/CLionProjects/Cub3D/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -419,7 +419,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/mathismartini/CLionProjects/cube"
+			"value" : "/Users/mathismartini/CLionProjects/Cub3D"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -991,7 +991,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mathismartini/CLionProjects/cube/cmake-build-debug"
+			"value" : "/Users/mathismartini/CLionProjects/Cub3D/cmake-build-debug"
 		},
 		{
 			"name" : "cube_IS_TOP_LEVEL",
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mathismartini/CLionProjects/cube"
+			"value" : "/Users/mathismartini/CLionProjects/Cub3D"
 		}
 	],
 	"kind" : "cache",

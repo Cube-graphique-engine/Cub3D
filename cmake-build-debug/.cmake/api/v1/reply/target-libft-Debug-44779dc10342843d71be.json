@@ -53,19 +53,19 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/mathismartini/CLionProjects/cube/include"
+					"path" : "/Users/mathismartini/CLionProjects/Cub3D/include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/mathismartini/CLionProjects/cube/lib/libft"
+					"path" : "/Users/mathismartini/CLionProjects/Cub3D/lib/libft"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/mathismartini/CLionProjects/cube/lib/minilibx"
+					"path" : "/Users/mathismartini/CLionProjects/Cub3D/lib/minilibx"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/mathismartini/CLionProjects/cube/lib/bettermlx"
+					"path" : "/Users/mathismartini/CLionProjects/Cub3D/lib/bettermlx"
 				}
 			],
 			"language" : "C",

@@ -1,27 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   size_char_tab.c                                    :+:      :+:    :+:   */
+/*   check_line_space.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mathmart <mathmart@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/11 10:23:30 by mathmart          #+#    #+#             */
-/*   Updated: 2022/07/11 10:42:39 by mathmart         ###   ########.fr       */
+/*   Created: 2022/07/25 01:59:34 by mathismartini     #+#    #+#             */
+/*   Updated: 2022/07/25 18:54:44 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cube.h"
 
-size_t	size_char_tab(char **tab, size_t index, bool value)
+bool	check_line_space(const char *map)
 {
-	size_t	start;
-	size_t	size;
+	size_t	i;
 
-	start = 0;
-	size = 0;
-	if (value == true)
-		start = index;
-	while (tab[start + size])
-		size++;
-	return (size);
+	i = 0;
+	while (map[i])
+	{
+		if (map[i] != ' ')
+			return (false);
+		i++;
+	}
+	return (true);
 }

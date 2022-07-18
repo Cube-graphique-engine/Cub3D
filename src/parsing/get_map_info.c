@@ -6,11 +6,12 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 18:51:36 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/07/11 13:02:13 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/07/25 18:32:18 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cube.h"
+#include "string.h"
 
 static void	get_info(t_game *game, char *tofind, char **texture)
 {
@@ -25,8 +26,8 @@ static void	get_info(t_game *game, char *tofind, char **texture)
 		{
 			if (ft_strncmp(game->map->file[i], tofind, ft_strlen(tofind)) == 0)
 			{
-				*texture = ft_strdup(game->map->file[i]);
-				i++;
+				*texture = strdup(game->map->file[i]);
+				return ;
 			}
 			j++;
 		}
@@ -58,7 +59,7 @@ static void	get_colors(t_game *game, char *to_find, t_color *color)
 		if (ft_strncmp(game->map->file[i], to_find, ft_strlen(to_find)) == 0)
 		{
 			*color = add_color(game->map->file[i], game);
-			i++;
+			return ;
 		}
 		i++;
 	}
@@ -97,5 +98,5 @@ void	get_map_info(t_game *game)
 		get_info(game, "C", &game->texture->d_ceilling);
 	}
 	check_image_path(game);
-//	get_image_xpm(game);
+	//	get_image_xpm(game);
 }

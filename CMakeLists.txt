@@ -40,6 +40,6 @@ include_directories(${CMAKE_SOURCE_DIR}/include
         )
 set(CMAKE_C_FLAGS "-Wdeprecated-declarations -O3 -Ofast -flto -march=native -ffast-math")
 
-add_executable(cube3D ${SOURCES} src/debug/debug_display.c include/cube_debug.h src/parsing/get_map.c src/parsing/utils/size_char_tab.c src/parsing/utils/check_base.c src/parsing/utils/get_player_position.c src/parsing/error/player_error.c)
+add_executable(cube3D ${SOURCES})
 
 target_link_libraries(cube3D "-framework OpenGL -framework AppKit" m libft mlx better)

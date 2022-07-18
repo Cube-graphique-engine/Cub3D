@@ -6,64 +6,70 @@
 /*   By: mathmart <mathmart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/11 09:29:50 by mathmart          #+#    #+#             */
-/*   Updated: 2022/07/17 17:20:14 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/07/25 18:53:44 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cube.h"
 
-static char	**copy_double_tab(t_game *game, size_t index)
+static size_t	get_map_height(char **map, t_game *game)
+{
+	size_t	i;
+
+	i = ft_get_splitted_size(map) - 1;
+	while (i > 0)
+	{
+		if (!is_in_base(map[i][0], "10NSEW "))
+			break ;
+		i--;
+	}
+	if (i == 0)
+		error_map(MAP_HEIGHT, game);
+	if (check_line_space(map[i]))
+		i++;
+	return (i);
+}
+
+static size_t	get_map_width(char **map, t_game *game)
+{
+	size_t	i;
+	size_t	size;
+
+	game->map->height = get_map_height(game->map->file, game);
+	i = ft_get_splitted_size(map) - 1 - game->map->height;
+	size = 0;
+	game->map->start = i;
+	while (map[i])
+	{
+		if (ft_strlen(map[i]) > size)
+			size = ft_strlen(map[i]);
+		i++;
+	}
+	return (size);
+}
+
+static char	**copy_double_tab(t_game *game, char **file)
 {
 	char	**copy;
 	size_t	i;
 
+	game->map->width = get_map_width(file, game);
+	copy = ft_calloc(game->map->height + 1, sizeof(&copy));
 	i = 0;
-	copy = ft_calloc(size_char_tab(game->map->file, index, true) + 1,
-		sizeof(char *));
-	while (game->map->file[index + i])
+	while (file[game->map->start + i] && i < game->map->height)
 	{
-		copy[i] = ft_strdup(game->map->file[index + i]);
+		copy[i] = ft_strdup(file[game->map->start + i]);
 		i++;
 	}
 	copy[i] = NULL;
 	return (copy);
 }
 
-void	get_map(t_game *game)
+char	**get_map(t_game *game)
 {
-	size_t	i;
+	char	**map;
 
-	i = 0;
-	while (game->map->file[i])
-	{
-		if (is_numberstr(game->map->file[i]))
-		{
-			game->map->map = copy_double_tab(game, i);
-			if (check_base(game->map->map, "10NSEW ") == false)
-				error_player(ERROR_CONFIG_MAP, game);
-			get_player_position(game);
-			game->map->map = copy_double_tab(game, i);
-			return ;
-		}
-		i++;
-	}
+	map = copy_double_tab(game, game->map->file);
+	ft_destroy_file_content(&game->map->file);
+	return (map);
 }
-
-//void	get_map(t_game *game, char ***map)
-//{
-//	size_t	i;
-//
-//	i = 0;
-//	while (game->map->file[i])
-//	{
-//		if (is_numberstr(game->map->file[i]))
-//		{
-//			*map = add_map(game, i);
-//			if (check_base(*map, "10NSEW ") == false)
-//				error_player(ERROR_CONFIG_MAP, game);
-//			get_player_position(game);
-//			return ;
-//		}
-//		i++;
-//	}
-//}

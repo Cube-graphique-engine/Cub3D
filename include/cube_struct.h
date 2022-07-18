@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:02:48 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/07/05 01:40:04 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/07/25 01:47:02 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,8 @@ typedef struct s_map
 	char	**map;
 	char	**file;
 	char	*path;
+	size_t	height;
+	size_t	width;
 	size_t	start;
 }				t_map;
 

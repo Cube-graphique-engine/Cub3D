@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/03 01:08:06 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/07/06 01:56:04 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/07/25 18:37:49 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,8 @@ static char	*get_color_value(int *index, const char *info)
 
 	i = *index;
 	j = 0;
-	value = ft_calloc(4, sizeof(char));
-	while ((i < 3 || info[i] != ',') && info[i])
+	value = ft_calloc(4, sizeof(char *));
+	while ((i < 3 || info[i] != ',') && info[i] && j < 4)
 	{
 		value[j] = info[i];
 		i++;
@@ -85,9 +85,11 @@ t_color	add_color(const char *info, t_game *game)
 	while (info[i] && ++j < 3)
 	{
 		value[j] = get_color_value(&i, info);
+		if (j == 2)
+			break ;
 		i++;
 	}
-	value[++j] = NULL;
+	value[3] = NULL;
 	color = create_color(TRANSPARENCY, to_convert(&value[0], game), \
 		to_convert(&value[1], game), to_convert(&value[2], game));
 	free(value);
