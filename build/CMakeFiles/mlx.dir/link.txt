@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libmlx.a CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.o CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.o CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.o CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.o CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libmlx.a

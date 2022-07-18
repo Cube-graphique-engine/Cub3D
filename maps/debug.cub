@@ -1,0 +1,18 @@
+NO  ./Config/debug/north.xpm
+SO  ./Config/debug/south.xpm
+WE  ./Config/debug/west.xpm
+EA  ./Config/debug/east.xpm
+
+F   ./Config/debug/floor.xpm
+C   ./Config/debug/ceiling.xpm
+D
+
+1111111111111
+1000000000001
+1000000000001
+1001010101001
+100000S000001
+1001010101001
+1000000000001
+1000000000001
+1111111111111

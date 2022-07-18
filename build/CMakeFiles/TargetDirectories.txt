@@ -1,0 +1,6 @@
+/Users/mathismartini/CLionProjects/cube/build/CMakeFiles/libft.dir
+/Users/mathismartini/CLionProjects/cube/build/CMakeFiles/mlx.dir
+/Users/mathismartini/CLionProjects/cube/build/CMakeFiles/better.dir
+/Users/mathismartini/CLionProjects/cube/build/CMakeFiles/cube3D.dir
+/Users/mathismartini/CLionProjects/cube/build/CMakeFiles/edit_cache.dir
+/Users/mathismartini/CLionProjects/cube/build/CMakeFiles/rebuild_cache.dir
