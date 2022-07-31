@@ -39,7 +39,7 @@ principles of ray-casting.
 </p>
 
 - ✍🏻 Created by Mathis Martini and Pierre Lavergne.
-- 📫 How to reach me: **contact@mathis-martini.fr**.
+- 📫 How to reach us: **contact@mathis-martini.fr** **pierre.lvrgn@gmail.com**.
 - 📫 How to reach us in 42: **mathmart@student.42lyon.fr** or **plavergn@student.42lyon.fr**.
 - 👨🏻‍💻 Login 42Intra: **mathmart** **plavergn**
 
