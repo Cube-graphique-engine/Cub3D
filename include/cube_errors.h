@@ -38,7 +38,7 @@ typedef enum s_error_player
 typedef enum s_error_map
 {
 	MAP_HEIGHT,
-	MAP_WIDTH
+	MAP_CLOSE
 }			t_error_map;
 
 void	check_parse_error(int error, t_game *game);

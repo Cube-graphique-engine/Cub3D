@@ -43,6 +43,7 @@ typedef struct s_map
 	size_t	height;
 	size_t	width;
 	size_t	start;
+	size_t	end;
 }				t_map;
 
 //Main struct

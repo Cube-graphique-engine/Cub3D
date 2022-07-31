@@ -64,8 +64,8 @@ void	get_player_position(t_game *game, char **map)
 		{
 			if (is_in_base(map[i][j], "NSEW") == true)
 			{
-				game->player->pos_y = j;
-				game->player->pos_x = i;
+				game->player->pos_y = i;
+				game->player->pos_x = j;
 				game->player->orientation = map[i][j];
 			}
 			j++;

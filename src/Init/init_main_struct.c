@@ -52,6 +52,7 @@ static t_map	*init_map_struct(void)
 	map->path = NULL;
 	map->file = NULL;
 	map->start = 0;
+	map->end = 0;
 	map->height = 0;
 	map->width = 0;
 	return (map);

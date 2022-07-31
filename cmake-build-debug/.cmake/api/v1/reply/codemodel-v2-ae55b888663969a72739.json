@@ -52,7 +52,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cube3D::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cube3D-Debug-50143d710b7bc6d9356a.json",
+					"jsonFile" : "target-cube3D-Debug-b8dc9450773d5c04f1b4.json",
 					"name" : "cube3D",
 					"projectIndex" : 0
 				},
@@ -82,6 +82,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }
