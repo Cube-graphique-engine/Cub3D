@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/25 01:59:34 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/07/31 21:52:20 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/07/31 21:53:24 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ size_t	check_empty_line(char **line, size_t index)
 	}
 	return (index);
 }
-
 
 bool	check_line_space(const char *map)
 {

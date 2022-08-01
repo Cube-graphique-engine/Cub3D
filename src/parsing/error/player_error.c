@@ -38,6 +38,7 @@ static void	error_config_map(t_game *game)
 
 void	error_player(int error, t_game *game)
 {
+	display_info(game);
 	if (error == ERROR_POSITION)
 		error_position(game);
 	else if (error == ERROR_CONFIG_MAP)

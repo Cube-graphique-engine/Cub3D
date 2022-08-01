@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/31 22:27:17 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/07/31 22:55:48 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/01 00:01:40 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ static size_t	get_map_start(char **map, t_game *game)
 	}
 	if (i == 0)
 		error_map(MAP_HEIGHT, game);
-	if (check_line_space(map[i]) || is_in_base(map[i][0],"CF"))
+	if (check_line_space(map[i]) || is_in_base(map[i][0], "CF"))
 		i++;
 	return (i);
 }

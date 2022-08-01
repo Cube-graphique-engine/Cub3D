@@ -38,8 +38,8 @@ typedef struct s_texture
 typedef struct s_map
 {
 	char	**map;
+	char	**str_map;
 	char	**file;
-	char	*path;
 	size_t	height;
 	size_t	width;
 	size_t	start;
