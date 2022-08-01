@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:44:43 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/01 16:35:20 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/02 17:53:15 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include "cube_struct.h"
 # include "cube_debug.h"
 
-/* Init */
+/* init */
 t_game 	*init_main_struct(void);
 
 /* ************************************************************************** */
@@ -44,11 +44,21 @@ bool	is_validate_map(t_map *map, int x, int y);
 /* ************************************************************************** */
 
 void	start_game(t_game *game);
+int		close_game(t_game *game);
 
-/* Game/Utils */
+/* game/utils */
 int		key_press_hook(int key_code, t_game *game);
 int		key_release_hook(int key_code, t_game *game);
 void	destroy_game(t_game *game);
+void	game_init(t_game *game);
+void	draw_cube(float size, t_vector3 vec, t_color color, t_game *game);
+void	draw_cube_left(float size, t_vector3 vec, t_color color, t_game *game);
+
+/* Gmae/window */
+void	put_images_to_window(t_game *game);
+
+/* game/movement */
+void	movement(t_game *game);
 
 /* Images */
 void	get_image_xpm(t_game *game);

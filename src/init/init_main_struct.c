@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:14:10 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/07/25 18:03:37 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/05 16:50:01 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,9 @@ static t_player	*init_player(void)
 		return (NULL);
 	player->pos_x = 0;
 	player->pos_y = 0;
+	player->pos.vy = 0;
+	player->pos.vx = 0;
+	player->pos.vz = 0;
 	player->orientation = 'm';
 	return (player);
 }
@@ -50,6 +53,7 @@ static t_map	*init_map_struct(void)
 		return (NULL);
 	map->map = NULL;
 	map->str_map = NULL;
+	map->bit_map = NULL;
 	map->file = NULL;
 	map->start = 0;
 	map->end = 0;
@@ -57,6 +61,16 @@ static t_map	*init_map_struct(void)
 	map->width = 0;
 	return (map);
 }
+
+//static t_cube_coo	*init_coord(void)
+//{
+//	t_cube_coo	*coord;
+//
+//	coord = ft_calloc(1, sizeof(t_cube_coo));
+//	if (!coord)
+//		return (NULL);
+//	return ()
+//}
 
 t_game 	*init_main_struct(void)
 {

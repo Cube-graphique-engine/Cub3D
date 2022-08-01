@@ -6,13 +6,13 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 16:02:20 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/01 17:34:06 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/06 00:14:43 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cube.h"
 
-static int	close_game(t_game *game)
+int	close_game(t_game *game)
 {
 	ft_destroy_string_array(&game->map->map);
 	ft_destroy_string_array(&game->map->str_map);
@@ -28,8 +28,12 @@ static int	close_game(t_game *game)
 
 static int	game_loop(t_game * game)
 {
+	bettermlx_clean_display(game->window);
+	put_images_to_window(game);
+	movement(game);
 	if (game->window->keyboard[KEY_ESCAPE])
 		close_game(game);
+	bettermlx_render(game->window);
 	return (0);
 }
 
@@ -38,8 +42,6 @@ void	start_game(t_game *game)
 	game->window = bettermlx_init_window("Cub3D", WIN_WIDTH, WIN_HEIGHT,
 		 WIN_DIVIDER);
 	get_image_xpm(game);
-	bettermlx_hook(game->window, KEY_PRESS, &key_press_hook, game);
-	bettermlx_hook(game->window, KEY_RELEASE, &key_release_hook, game);
-	mlx_hook(game->window->win_ptr, 17, 1L << 5, &close_game, game);
+	game_init(game);
 	bettermlx_register_loop(game->window, game, game_loop);
 }
