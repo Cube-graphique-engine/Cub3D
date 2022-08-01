@@ -18,6 +18,7 @@
 */
 
 # include "bettermlx.h"
+# include <stdbool.h>
 
 /*
 **	END CUSTOM INCLUDES
@@ -50,7 +51,7 @@ typedef struct s_window
 	void		*mlx_ptr;
 	void		*win_ptr;
 	t_image		*image;
-	t_bool		keyboard[384];
+	bool		keyboard[384];
 }			t_window;
 
 /*

@@ -1,27 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   key_press_hook.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/01 17:01:01 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/01 17:28:18 by mathismartini    ###   ########.fr       */
+/*   Created: 2022/08/01 16:26:19 by mathismartini     #+#    #+#             */
+/*   Updated: 2022/08/01 16:32:28 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cube.h"
 
-int	main(int ac, char **av)
+int	key_press_hook(int key_code, t_game *game)
 {
-	t_game	*game;
-
-	if (ac <= 1)
-		ft_putstr_errnl("Error need more arguments !");
-	game = init_main_struct();
-	parse_map(game, av);
-	start_game(game);
-	return (EXIT_SUCCESS);
+	game->window->keyboard[key_code] = true;
+	return (0);
 }
 
-//free all
+int	key_release_hook(int key_code, t_game *game)
+{
+	game->window->keyboard[key_code] = false;
+	return (0);
+}

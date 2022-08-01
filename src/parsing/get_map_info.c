@@ -98,5 +98,4 @@ void	get_map_info(t_game *game)
 		get_info(game, "C", &game->texture->d_ceilling);
 	}
 	check_image_path(game);
-	//	get_image_xpm(game);
 }

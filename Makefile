@@ -6,7 +6,7 @@
 #    By: mathmart <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/25 14:46:28 by mathmart          #+#    #+#              #
-#    Updated: 2022/08/01 15:03:23 by mathismartini    ###   ########.fr        #
+#    Updated: 2022/08/01 15:14:58 by mathismartini    ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,7 +41,7 @@ OBJS		= $(SRCS:%.c=%.o)
 OBJ_DIR 	= Objects
 OBJ_PATH	= $(addprefix $(OBJ_DIR)/, $(OBJS))
 DEPENDES	= $(OBJ_PATH:%.o=%.d)
-CFLAGS		= -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -fsanitize=address
+CFLAGS		= -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math #-fsanitize=address
 LIBFT		= ./lib/libft/libft.a
 MLX			= ./lib/minilibx/libmlx.a
 BETTER		= ./lib/bettermlx/libbettermlx.a

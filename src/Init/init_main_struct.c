@@ -68,8 +68,6 @@ t_game 	*init_main_struct(void)
 	game->map = init_map_struct();
 	game->texture = init_texture_struct();
 	game->player = init_player();
-//	game->window = bettermlx_init_window("Cub3D", WIN_WIDTH, WIN_HEIGHT,
-//			 WIN_DIVIDER);
 	game->n_image = NULL;
 	game->s_image = NULL;
 	game->w_image = NULL;
@@ -77,6 +75,5 @@ t_game 	*init_main_struct(void)
 	game->d_floor = NULL;
 	game->d_ceiling = NULL;
 	game->debug = false;
-//	mlx_loop(game->window->mlx_ptr);
 	return (game);
 }
