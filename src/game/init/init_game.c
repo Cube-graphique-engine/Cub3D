@@ -17,5 +17,6 @@ void	game_init(t_game *game)
 	bettermlx_hook(game->window, KEY_PRESS, &key_press_hook, game);
 	bettermlx_hook(game->window, KEY_RELEASE, &key_release_hook, game);
 	mlx_hook(game->window->win_ptr, 17, 1L << 5, &close_game, game);
-	game->player->pos = create_vector((float)game->player->pos_x, (float)game->player->pos_y, 0);
+	game->player->pos = create_vector((float)game->player->pos_x,
+			(float)game->player->pos_y, 0);
 }

@@ -26,7 +26,7 @@ int	close_game(t_game *game)
 	exit (EXIT_SUCCESS);
 }
 
-static int	game_loop(t_game * game)
+static int	game_loop(t_game *game)
 {
 	bettermlx_clean_display(game->window);
 	put_images_to_window(game);
@@ -40,7 +40,7 @@ static int	game_loop(t_game * game)
 void	start_game(t_game *game)
 {
 	game->window = bettermlx_init_window("Cub3D", WIN_WIDTH, WIN_HEIGHT,
-		 WIN_DIVIDER);
+			WIN_DIVIDER);
 	get_image_xpm(game);
 	game_init(game);
 	bettermlx_register_loop(game->window, game, game_loop);

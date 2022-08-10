@@ -67,5 +67,5 @@ void	map_info(t_game *game, char **map)
 	game->map->end = get_map_end(map, game);
 	game->map->height = game->map->end - game->map->start;
 	game->map->width = get_map_width(map, game);
-    game->map->size = game->map->height * game->map->width;
+	game->map->size = game->map->height * game->map->width;
 }

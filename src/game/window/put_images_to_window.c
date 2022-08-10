@@ -61,77 +61,70 @@
 //	}
 //}
 
-static t_vector3 get_vec(size_t y, size_t x, float size)
+static t_vector3	get_vec(size_t y, size_t x, float size)
 {
-    float new_y;
-    float new_x;
+	float	new_y;
+	float	new_x;
 
-    new_y = size * y - 0.5;
-    new_x = size * x - 0.5;
-    return (create_vector(new_x, new_y, 0));
+	new_y = size * y - 0.5;
+	new_x = size * x - 0.5;
+	return (create_vector(new_x, new_y, 0));
 }
 
-void	draw_2d_map(t_game *game, float size)
+static void	draw_2d_map(t_game *game, float size)
 {
-    t_color	color;
-    size_t	x;
-    size_t	y;
+	t_color	color;
+	size_t	x;
+	size_t	y;
 
-    y = 0;
-    while (y < game->map->height)
-    {
-        x = 0;
-        while (x < ft_strlen(game->map->str_map[y]))
-        {
-            if (game->map->bit_map[y* ft_strlen(game->map->str_map[y]) + x] == 1)
-                color = create_icolor(1, 255, 255, 255);
-            else
-                color = create_icolor(0, 0, 0, 0);
-            draw_cube_left(size, get_vec(y, x, size), color, game);
-            x++;
-        }
-        y++;
-    }
+	y = 0;
+	while (y < game->map->height)
+	{
+		x = 0;
+		while (x < ft_strlen(game->map->str_map[y]))
+		{
+			if (game->map->bit_map[y * \
+				ft_strlen(game->map->str_map[y]) + x] == 1)
+				color = create_icolor(1, 255, 255, 255);
+			else
+				color = create_icolor(0, 0, 0, 0);
+			draw_cube_left(size, get_vec(y, x, size), color, game);
+			x++;
+		}
+		y++;
+	}
 }
 
-static void convert_map(t_map *map)
+static void	convert_map(t_map *map)
 {
-    size_t  x;
-    size_t  y;
-    size_t  index;
+	size_t	x;
+	size_t	y;
+	size_t	index;
 
-    map->bit_map = ft_calloc(map->size + 1, sizeof(int));
-    if (!map->bit_map)
-        return ;
-    y = 0;
-    index = 0;
-    while (y < map->height)
-    {
-        x = 0;
-        while (x < ft_strlen(map->str_map[y]))
-        {
-            if (map->str_map[y][x] == '1')
-                map->bit_map[index] = 1;
-            else
-                map->bit_map[index] = 0;
-            index++;
-            x++;
-        }
-        y++;
-    }
-    ft_destroy_string_array(&map->map);
+	map->bit_map = ft_calloc(map->size + 1, sizeof(int));
+	if (!map->bit_map)
+		return ;
+	y = 0;
+	index = 0;
+	while (y < map->height)
+	{
+		x = 0;
+		while (x < ft_strlen(map->str_map[y]))
+		{
+			if (map->str_map[y][x] == '1')
+				map->bit_map[index] = 1;
+			else
+				map->bit_map[index] = 0;
+			index++;
+			x++;
+		}
+		y++;
+	}
+	ft_destroy_string_array(&map->map);
 }
 
 void	put_images_to_window(t_game *game)
 {
-    convert_map(game->map);
+	convert_map(game->map);
 	draw_2d_map(game, 64);
-//	t_color		color;
-//
-//	color = create_icolor(1, 255, 12, 122);
-//	draw_2d_cub(game);
-//	draw_player(game);
-//	draw_cube_left(40, create_vector( WIN_WIDTH /2, WIN_HEIGHT /2, 0), create_icolor(1, 0, 28, 227), game);
-//	draw_cube(80, create_vector(WIN_WIDTH /2, WIN_HEIGHT /2, 0), color, game);
 }
-

@@ -59,11 +59,11 @@ static t_map	*init_map_struct(void)
 	map->end = 0;
 	map->height = 0;
 	map->width = 0;
-    map->size = 0;
+	map->size = 0;
 	return (map);
 }
 
-t_game 	*init_main_struct(void)
+t_game	*init_main_struct(void)
 {
 	t_game	*game;
 

@@ -22,7 +22,7 @@ void	display_info(t_game *game)
 	printf("%s\n", game->texture->w_path);
 	printf("start = %zu\nend = %zu\n", game->map->start, game->map->end);
 	printf("\033[1;32mheight = %zu\nwitdh = %zu\033[0m\n", game->map->height,
-		   game->map->width);
+		game->map->width);
 	i = -1;
 	printf("MAP = \n");
 	while (game->map->map[++i])

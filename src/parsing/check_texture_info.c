@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   check_texture_info.cpp                             :+:      :+:    :+:   */
+/*   check_texture_info.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -35,8 +35,8 @@ static char	*get_path(char *path)
 	while (path[i] != '.')
 		i++;
 	new_path = ft_strndup(path + i,
-			 ft_strlen(path) - i,
-			 FALSE);
+			ft_strlen(path) - i,
+			FALSE);
 	return (new_path);
 }
 
