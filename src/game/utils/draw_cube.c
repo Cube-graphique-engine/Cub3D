@@ -12,10 +12,11 @@
 
 #include "cube.h"
 
-static void	draw_right_down_side(float size, t_vector3 vec, t_color color, t_game *game)
+static void	draw_right_down_side(float size, t_vector3 vec, t_color color,
+		t_game *game)
 {
-	float 		y;
-	float 		x;
+	float		y;
+	float		x;
 	t_vector3	vec_tmp;
 
 	y = 0;

@@ -38,7 +38,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include
         ${CMAKE_SOURCE_DIR}/lib/bettermlx/
         )
 
-set(CMAKE_C_FLAGS "-O3 -Ofast -flto -march=native -ffast-math -DSTRINGPUTX11 -Wno-deprecated-declarations -fsanitize=address")
+set(CMAKE_C_FLAGS "-O3 -Ofast -flto -march=native -ffast-math -DSTRINGPUTX11 -Wno-deprecated-declarations -fsanitize=address -g3")
 
 add_executable(cube3D ${SOURCES})
 

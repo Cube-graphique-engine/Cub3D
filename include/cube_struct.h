@@ -47,6 +47,7 @@ typedef struct s_map
 	size_t	width;
 	size_t	start;
 	size_t	end;
+    size_t  size;
 }				t_map;
 
 typedef struct s_cube_coo
