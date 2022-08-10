@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/plavergn/CLionProjects/Cub3D
+CMAKE_SOURCE_DIR = /Users/mathmart/CLionProjects/Cub3D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -5088,6 +5088,30 @@ src/game/utils/key_press_hook.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube3D.dir/build.make CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.s
 .PHONY : src/game/utils/key_press_hook.c.s
 
+src/game/window/put_floor_and_ceiling.o: src/game/window/put_floor_and_ceiling.c.o
+.PHONY : src/game/window/put_floor_and_ceiling.o
+
+# target to build an object file
+src/game/window/put_floor_and_ceiling.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube3D.dir/build.make CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.o
+.PHONY : src/game/window/put_floor_and_ceiling.c.o
+
+src/game/window/put_floor_and_ceiling.i: src/game/window/put_floor_and_ceiling.c.i
+.PHONY : src/game/window/put_floor_and_ceiling.i
+
+# target to preprocess a source file
+src/game/window/put_floor_and_ceiling.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube3D.dir/build.make CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.i
+.PHONY : src/game/window/put_floor_and_ceiling.c.i
+
+src/game/window/put_floor_and_ceiling.s: src/game/window/put_floor_and_ceiling.c.s
+.PHONY : src/game/window/put_floor_and_ceiling.s
+
+# target to generate assembly for a file
+src/game/window/put_floor_and_ceiling.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube3D.dir/build.make CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.s
+.PHONY : src/game/window/put_floor_and_ceiling.c.s
+
 src/game/window/put_images_to_window.o: src/game/window/put_images_to_window.c.o
 .PHONY : src/game/window/put_images_to_window.o
 
@@ -5111,6 +5135,30 @@ src/game/window/put_images_to_window.s: src/game/window/put_images_to_window.c.s
 src/game/window/put_images_to_window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube3D.dir/build.make CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.s
 .PHONY : src/game/window/put_images_to_window.c.s
+
+src/game/window/put_player.o: src/game/window/put_player.c.o
+.PHONY : src/game/window/put_player.o
+
+# target to build an object file
+src/game/window/put_player.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube3D.dir/build.make CMakeFiles/cube3D.dir/src/game/window/put_player.c.o
+.PHONY : src/game/window/put_player.c.o
+
+src/game/window/put_player.i: src/game/window/put_player.c.i
+.PHONY : src/game/window/put_player.i
+
+# target to preprocess a source file
+src/game/window/put_player.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube3D.dir/build.make CMakeFiles/cube3D.dir/src/game/window/put_player.c.i
+.PHONY : src/game/window/put_player.c.i
+
+src/game/window/put_player.s: src/game/window/put_player.c.s
+.PHONY : src/game/window/put_player.s
+
+# target to generate assembly for a file
+src/game/window/put_player.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube3D.dir/build.make CMakeFiles/cube3D.dir/src/game/window/put_player.c.s
+.PHONY : src/game/window/put_player.c.s
 
 src/init/init_main_struct.o: src/init/init_main_struct.c.o
 .PHONY : src/init/init_main_struct.o
@@ -6243,9 +6291,15 @@ help:
 	@echo "... src/game/utils/key_press_hook.o"
 	@echo "... src/game/utils/key_press_hook.i"
 	@echo "... src/game/utils/key_press_hook.s"
+	@echo "... src/game/window/put_floor_and_ceiling.o"
+	@echo "... src/game/window/put_floor_and_ceiling.i"
+	@echo "... src/game/window/put_floor_and_ceiling.s"
 	@echo "... src/game/window/put_images_to_window.o"
 	@echo "... src/game/window/put_images_to_window.i"
 	@echo "... src/game/window/put_images_to_window.s"
+	@echo "... src/game/window/put_player.o"
+	@echo "... src/game/window/put_player.i"
+	@echo "... src/game/window/put_player.s"
 	@echo "... src/init/init_main_struct.o"
 	@echo "... src/init/init_main_struct.i"
 	@echo "... src/init/init_main_struct.s"

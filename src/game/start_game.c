@@ -19,6 +19,8 @@ int	close_game(t_game *game)
 	destroy_game(game);
 	free(game->map);
 	game->map = NULL;
+	free(game->texture);
+	game->texture = NULL;
 	free(game->player);
 	game->player = NULL;
 	free(game);
@@ -28,7 +30,7 @@ int	close_game(t_game *game)
 
 static int	game_loop(t_game *game)
 {
-	bettermlx_clean_display(game->window);
+	put_floor_and_ceiling(game);
 	put_images_to_window(game);
 	put_player(game, game->player);
 	movement(game);

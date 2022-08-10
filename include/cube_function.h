@@ -57,6 +57,7 @@ void	draw_cube_left(float size, t_vector3 vec, t_color color, t_game *game);
 /* Gmae/window */
 void	put_images_to_window(t_game *game);
 void	put_player(t_game *game, t_player *player);
+void	put_floor_and_ceiling(t_game *game);
 
 /* game/movement */
 void	movement(t_game *game);

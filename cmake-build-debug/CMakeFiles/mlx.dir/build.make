@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/plavergn/CLionProjects/Cub3D
+CMAKE_SOURCE_DIR = /Users/mathmart/CLionProjects/Cub3D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mlx.dir/depend.make
@@ -72,142 +72,142 @@ include CMakeFiles/mlx.dir/flags.make
 CMakeFiles/mlx.dir/lib/minilibx/font.c.o: CMakeFiles/mlx.dir/flags.make
 CMakeFiles/mlx.dir/lib/minilibx/font.c.o: ../lib/minilibx/font.c
 CMakeFiles/mlx.dir/lib/minilibx/font.c.o: CMakeFiles/mlx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mlx.dir/lib/minilibx/font.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/font.c.o -MF CMakeFiles/mlx.dir/lib/minilibx/font.c.o.d -o CMakeFiles/mlx.dir/lib/minilibx/font.c.o -c /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/font.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mlx.dir/lib/minilibx/font.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/font.c.o -MF CMakeFiles/mlx.dir/lib/minilibx/font.c.o.d -o CMakeFiles/mlx.dir/lib/minilibx/font.c.o -c /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/font.c
 
 CMakeFiles/mlx.dir/lib/minilibx/font.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mlx.dir/lib/minilibx/font.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/font.c > CMakeFiles/mlx.dir/lib/minilibx/font.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/font.c > CMakeFiles/mlx.dir/lib/minilibx/font.c.i
 
 CMakeFiles/mlx.dir/lib/minilibx/font.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mlx.dir/lib/minilibx/font.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/font.c -o CMakeFiles/mlx.dir/lib/minilibx/font.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/font.c -o CMakeFiles/mlx.dir/lib/minilibx/font.c.s
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.o: CMakeFiles/mlx.dir/flags.make
 CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.o: ../lib/minilibx/mlx_init_loop.m
 CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.o: CMakeFiles/mlx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.o -c /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_init_loop.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.o -c /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_init_loop.m
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_init_loop.m > CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_init_loop.m > CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.i
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_init_loop.m -o CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_init_loop.m -o CMakeFiles/mlx.dir/lib/minilibx/mlx_init_loop.m.s
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.o: CMakeFiles/mlx.dir/flags.make
 CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.o: ../lib/minilibx/mlx_int_str_to_wordtab.c
 CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.o: CMakeFiles/mlx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.o -c /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_int_str_to_wordtab.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.o -c /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_int_str_to_wordtab.c
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_int_str_to_wordtab.c > CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_int_str_to_wordtab.c > CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.i
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_int_str_to_wordtab.c -o CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_int_str_to_wordtab.c -o CMakeFiles/mlx.dir/lib/minilibx/mlx_int_str_to_wordtab.c.s
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.o: CMakeFiles/mlx.dir/flags.make
 CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.o: ../lib/minilibx/mlx_mouse.m
 CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.o: CMakeFiles/mlx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.o -c /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_mouse.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.o -c /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_mouse.m
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_mouse.m > CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_mouse.m > CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.i
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_mouse.m -o CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_mouse.m -o CMakeFiles/mlx.dir/lib/minilibx/mlx_mouse.m.s
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.o: CMakeFiles/mlx.dir/flags.make
 CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.o: ../lib/minilibx/mlx_new_image.m
 CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.o: CMakeFiles/mlx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.o -c /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_new_image.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.o -c /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_new_image.m
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_new_image.m > CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_new_image.m > CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.i
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_new_image.m -o CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_new_image.m -o CMakeFiles/mlx.dir/lib/minilibx/mlx_new_image.m.s
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.o: CMakeFiles/mlx.dir/flags.make
 CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.o: ../lib/minilibx/mlx_new_window.m
 CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.o: CMakeFiles/mlx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.o -c /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_new_window.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.o -c /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_new_window.m
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_new_window.m > CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_new_window.m > CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.i
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_new_window.m -o CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_new_window.m -o CMakeFiles/mlx.dir/lib/minilibx/mlx_new_window.m.s
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.o: CMakeFiles/mlx.dir/flags.make
 CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.o: ../lib/minilibx/mlx_opengl.m
 CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.o: CMakeFiles/mlx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.o -c /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_opengl.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.o -c /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_opengl.m
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_opengl.m > CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_opengl.m > CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.i
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_opengl.m -o CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_opengl.m -o CMakeFiles/mlx.dir/lib/minilibx/mlx_opengl.m.s
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.o: CMakeFiles/mlx.dir/flags.make
 CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.o: ../lib/minilibx/mlx_png.c
 CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.o: CMakeFiles/mlx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.o -c /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_png.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.o -c /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_png.c
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_png.c > CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_png.c > CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.i
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_png.c -o CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_png.c -o CMakeFiles/mlx.dir/lib/minilibx/mlx_png.c.s
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.o: CMakeFiles/mlx.dir/flags.make
 CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.o: ../lib/minilibx/mlx_shaders.c
 CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.o: CMakeFiles/mlx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.o -c /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_shaders.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.o -c /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_shaders.c
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_shaders.c > CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_shaders.c > CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.i
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_shaders.c -o CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_shaders.c -o CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.s
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.o: CMakeFiles/mlx.dir/flags.make
 CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.o: ../lib/minilibx/mlx_xpm.c
 CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.o: CMakeFiles/mlx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.o -c /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_xpm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.o -MF CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.o.d -o CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.o -c /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_xpm.c
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_xpm.c > CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_xpm.c > CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.i
 
 CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/lib/minilibx/mlx_xpm.c -o CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/lib/minilibx/mlx_xpm.c -o CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.s
 
 # Object files for target mlx
 mlx_OBJECTS = \
@@ -237,7 +237,7 @@ libmlx.a: CMakeFiles/mlx.dir/lib/minilibx/mlx_shaders.c.o
 libmlx.a: CMakeFiles/mlx.dir/lib/minilibx/mlx_xpm.c.o
 libmlx.a: CMakeFiles/mlx.dir/build.make
 libmlx.a: CMakeFiles/mlx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C static library libmlx.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C static library libmlx.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/mlx.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mlx.dir/link.txt --verbose=$(VERBOSE)
 
@@ -250,6 +250,6 @@ CMakeFiles/mlx.dir/clean:
 .PHONY : CMakeFiles/mlx.dir/clean
 
 CMakeFiles/mlx.dir/depend:
-	cd /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/plavergn/CLionProjects/Cub3D /Users/plavergn/CLionProjects/Cub3D /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles/mlx.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mathmart/CLionProjects/Cub3D /Users/mathmart/CLionProjects/Cub3D /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles/mlx.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mlx.dir/depend
 

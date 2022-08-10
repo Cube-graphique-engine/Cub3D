@@ -40,6 +40,6 @@ include_directories(${CMAKE_SOURCE_DIR}/include
 
 set(CMAKE_C_FLAGS "-O3 -Ofast -flto -march=native -ffast-math -DSTRINGPUTX11 -Wno-deprecated-declarations -fsanitize=address -g3")
 
-add_executable(cube3D ${SOURCES})
+add_executable(cube3D ${SOURCES} src/game/window/put_floor_and_ceiling.c)
 
 target_link_libraries(cube3D "-framework OpenGL -framework AppKit" m libft mlx better)

@@ -12,55 +12,6 @@
 
 #include "cube.h"
 
-//static void	draw_vertex(t_game *game, t_cube_coo *coord, t_color color)
-//{
-//	t_vector3	vec;
-//
-//	vec.vy = coord->up_left.vy;
-//	while (coord->up_left.vy + vec.vy < coord->down_left.vy)
-//	{
-//		vec.vx = coord->up_left.vx;
-//		while (coord->up_left.vx + vec.vx < coord->up_right.vx)
-//		{
-//			bettermlx_pixel_put(game->window, vec, color, 1);
-//			vec.vx++;
-//		}
-//		vec.vy++;
-//	}
-//}
-
-//static void	add_coord(t_cube_coo *coord, float x, float y, float size)
-//{
-//	coord->up_left = create_vector(x * size, y * size, 0);
-//	coord->down_left = create_vector(x * size, y * size + size, 0);
-//	coord->up_right = create_vector(x * size + size, y * size, 0);
-//	coord->down_right = create_vector(x * size + size, y * size + size, 0);
-//}
-
-//void	draw_2d_map(t_game *game, float size)
-//{
-//	t_color	color;
-//	size_t	x;
-//	size_t	y;
-//
-//	y = 0;
-//	while (y < game->map->height)
-//	{
-//		x = 0;
-//		while (x < ft_strlen(game->map->str_map[y]))
-//		{
-//			if (game->map->str_map[y][x] == '1')
-//				color = create_icolor(1, 255, 255, 255);
-//			else
-//				color = create_icolor(0, 0, 0, 0);
-//			add_coord(&game->coord, x, y, size);
-//			draw_vertex(game, &game->coord, color);
-//			x++;
-//		}
-//		y++;
-//	}
-//}
-
 static t_vector3	get_vec(size_t y, size_t x, float size)
 {
 	float	new_y;
@@ -69,6 +20,14 @@ static t_vector3	get_vec(size_t y, size_t x, float size)
 	new_y = size * y - 0.5;
 	new_x = size * x - 0.5;
 	return (create_vector(new_x, new_y, 0));
+}
+
+static t_color 	get_color(size_t y, t_game *game)
+{
+	if (y < WIN_HEIGHT * 0.5)
+		return (game->texture->ceiling);
+	else
+		return (game->texture->floor);
 }
 
 static void	draw_2d_map(t_game *game, float size)
@@ -87,7 +46,7 @@ static void	draw_2d_map(t_game *game, float size)
 				ft_strlen(game->map->str_map[y]) + x] == 1)
 				color = create_icolor(1, 255, 255, 255);
 			else
-				color = create_icolor(0, 0, 0, 0);
+				color = get_color(y, game);
 			draw_cube_left(size, get_vec(y, x, size), color, game);
 			x++;
 		}

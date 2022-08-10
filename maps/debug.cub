@@ -3,9 +3,8 @@ SO  ./Config/debug/south.xpm
 WE  ./Config/debug/west.xpm
 EA  ./Config/debug/east.xpm
 
-F   ./Config/debug/floor.xpm
-C   ./Config/debug/ceiling.xpm
-D
+F 220,100,0
+C 225,30,0
 
 1111111111111
 1000000000001

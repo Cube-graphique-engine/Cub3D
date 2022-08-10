@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/plavergn/CLionProjects/Cub3D
+CMAKE_SOURCE_DIR = /Users/mathmart/CLionProjects/Cub3D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cube3D.dir/depend.make
@@ -72,408 +72,436 @@ include CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/game/init/init_game.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/game/init/init_game.c.o: ../src/game/init/init_game.c
 CMakeFiles/cube3D.dir/src/game/init/init_game.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cube3D.dir/src/game/init/init_game.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/init/init_game.c.o -MF CMakeFiles/cube3D.dir/src/game/init/init_game.c.o.d -o CMakeFiles/cube3D.dir/src/game/init/init_game.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/game/init/init_game.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cube3D.dir/src/game/init/init_game.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/init/init_game.c.o -MF CMakeFiles/cube3D.dir/src/game/init/init_game.c.o.d -o CMakeFiles/cube3D.dir/src/game/init/init_game.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/game/init/init_game.c
 
 CMakeFiles/cube3D.dir/src/game/init/init_game.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/game/init/init_game.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/game/init/init_game.c > CMakeFiles/cube3D.dir/src/game/init/init_game.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/game/init/init_game.c > CMakeFiles/cube3D.dir/src/game/init/init_game.c.i
 
 CMakeFiles/cube3D.dir/src/game/init/init_game.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/game/init/init_game.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/game/init/init_game.c -o CMakeFiles/cube3D.dir/src/game/init/init_game.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/game/init/init_game.c -o CMakeFiles/cube3D.dir/src/game/init/init_game.c.s
 
 CMakeFiles/cube3D.dir/src/game/movement/movement.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/game/movement/movement.c.o: ../src/game/movement/movement.c
 CMakeFiles/cube3D.dir/src/game/movement/movement.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cube3D.dir/src/game/movement/movement.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/movement/movement.c.o -MF CMakeFiles/cube3D.dir/src/game/movement/movement.c.o.d -o CMakeFiles/cube3D.dir/src/game/movement/movement.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/game/movement/movement.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cube3D.dir/src/game/movement/movement.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/movement/movement.c.o -MF CMakeFiles/cube3D.dir/src/game/movement/movement.c.o.d -o CMakeFiles/cube3D.dir/src/game/movement/movement.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/game/movement/movement.c
 
 CMakeFiles/cube3D.dir/src/game/movement/movement.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/game/movement/movement.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/game/movement/movement.c > CMakeFiles/cube3D.dir/src/game/movement/movement.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/game/movement/movement.c > CMakeFiles/cube3D.dir/src/game/movement/movement.c.i
 
 CMakeFiles/cube3D.dir/src/game/movement/movement.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/game/movement/movement.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/game/movement/movement.c -o CMakeFiles/cube3D.dir/src/game/movement/movement.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/game/movement/movement.c -o CMakeFiles/cube3D.dir/src/game/movement/movement.c.s
 
 CMakeFiles/cube3D.dir/src/game/start_game.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/game/start_game.c.o: ../src/game/start_game.c
 CMakeFiles/cube3D.dir/src/game/start_game.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cube3D.dir/src/game/start_game.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/start_game.c.o -MF CMakeFiles/cube3D.dir/src/game/start_game.c.o.d -o CMakeFiles/cube3D.dir/src/game/start_game.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/game/start_game.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cube3D.dir/src/game/start_game.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/start_game.c.o -MF CMakeFiles/cube3D.dir/src/game/start_game.c.o.d -o CMakeFiles/cube3D.dir/src/game/start_game.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/game/start_game.c
 
 CMakeFiles/cube3D.dir/src/game/start_game.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/game/start_game.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/game/start_game.c > CMakeFiles/cube3D.dir/src/game/start_game.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/game/start_game.c > CMakeFiles/cube3D.dir/src/game/start_game.c.i
 
 CMakeFiles/cube3D.dir/src/game/start_game.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/game/start_game.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/game/start_game.c -o CMakeFiles/cube3D.dir/src/game/start_game.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/game/start_game.c -o CMakeFiles/cube3D.dir/src/game/start_game.c.s
 
 CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.o: ../src/game/utils/destroy_game.c
 CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.o -MF CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.o.d -o CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/game/utils/destroy_game.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.o -MF CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.o.d -o CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/game/utils/destroy_game.c
 
 CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/game/utils/destroy_game.c > CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/game/utils/destroy_game.c > CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.i
 
 CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/game/utils/destroy_game.c -o CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/game/utils/destroy_game.c -o CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.s
 
 CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o: ../src/game/utils/draw_cube.c
 CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o -MF CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o.d -o CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/game/utils/draw_cube.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o -MF CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o.d -o CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/game/utils/draw_cube.c
 
 CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/game/utils/draw_cube.c > CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/game/utils/draw_cube.c > CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.i
 
 CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/game/utils/draw_cube.c -o CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/game/utils/draw_cube.c -o CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.s
 
 CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o: ../src/game/utils/draw_cube_left.c
 CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o -MF CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o.d -o CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/game/utils/draw_cube_left.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o -MF CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o.d -o CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/game/utils/draw_cube_left.c
 
 CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/game/utils/draw_cube_left.c > CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/game/utils/draw_cube_left.c > CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.i
 
 CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/game/utils/draw_cube_left.c -o CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/game/utils/draw_cube_left.c -o CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.s
 
 CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o: ../src/game/utils/key_press_hook.c
 CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o -MF CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o.d -o CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/game/utils/key_press_hook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o -MF CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o.d -o CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/game/utils/key_press_hook.c
 
 CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/game/utils/key_press_hook.c > CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/game/utils/key_press_hook.c > CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.i
 
 CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/game/utils/key_press_hook.c -o CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/game/utils/key_press_hook.c -o CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.s
+
+CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.o: CMakeFiles/cube3D.dir/flags.make
+CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.o: ../src/game/window/put_floor_and_ceiling.c
+CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.o -MF CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.o.d -o CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/game/window/put_floor_and_ceiling.c
+
+CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/game/window/put_floor_and_ceiling.c > CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.i
+
+CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/game/window/put_floor_and_ceiling.c -o CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.s
 
 CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o: ../src/game/window/put_images_to_window.c
 CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o -MF CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o.d -o CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/game/window/put_images_to_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o -MF CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o.d -o CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/game/window/put_images_to_window.c
 
 CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/game/window/put_images_to_window.c > CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/game/window/put_images_to_window.c > CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.i
 
 CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/game/window/put_images_to_window.c -o CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/game/window/put_images_to_window.c -o CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.s
+
+CMakeFiles/cube3D.dir/src/game/window/put_player.c.o: CMakeFiles/cube3D.dir/flags.make
+CMakeFiles/cube3D.dir/src/game/window/put_player.c.o: ../src/game/window/put_player.c
+CMakeFiles/cube3D.dir/src/game/window/put_player.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/cube3D.dir/src/game/window/put_player.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/game/window/put_player.c.o -MF CMakeFiles/cube3D.dir/src/game/window/put_player.c.o.d -o CMakeFiles/cube3D.dir/src/game/window/put_player.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/game/window/put_player.c
+
+CMakeFiles/cube3D.dir/src/game/window/put_player.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/game/window/put_player.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/game/window/put_player.c > CMakeFiles/cube3D.dir/src/game/window/put_player.c.i
+
+CMakeFiles/cube3D.dir/src/game/window/put_player.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/game/window/put_player.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/game/window/put_player.c -o CMakeFiles/cube3D.dir/src/game/window/put_player.c.s
 
 CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o: ../src/init/init_main_struct.c
 CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o -MF CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o.d -o CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/init/init_main_struct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o -MF CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o.d -o CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/init/init_main_struct.c
 
 CMakeFiles/cube3D.dir/src/init/init_main_struct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/init/init_main_struct.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/init/init_main_struct.c > CMakeFiles/cube3D.dir/src/init/init_main_struct.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/init/init_main_struct.c > CMakeFiles/cube3D.dir/src/init/init_main_struct.c.i
 
 CMakeFiles/cube3D.dir/src/init/init_main_struct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/init/init_main_struct.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/init/init_main_struct.c -o CMakeFiles/cube3D.dir/src/init/init_main_struct.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/init/init_main_struct.c -o CMakeFiles/cube3D.dir/src/init/init_main_struct.c.s
 
 CMakeFiles/cube3D.dir/src/main.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/main.c.o: ../src/main.c
 CMakeFiles/cube3D.dir/src/main.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/cube3D.dir/src/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/main.c.o -MF CMakeFiles/cube3D.dir/src/main.c.o.d -o CMakeFiles/cube3D.dir/src/main.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/cube3D.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/main.c.o -MF CMakeFiles/cube3D.dir/src/main.c.o.d -o CMakeFiles/cube3D.dir/src/main.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/main.c
 
 CMakeFiles/cube3D.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/main.c > CMakeFiles/cube3D.dir/src/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/main.c > CMakeFiles/cube3D.dir/src/main.c.i
 
 CMakeFiles/cube3D.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/main.c -o CMakeFiles/cube3D.dir/src/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/main.c -o CMakeFiles/cube3D.dir/src/main.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o: ../src/parsing/check_texture_info.c
 CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o -MF CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/check_texture_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o -MF CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/check_texture_info.c
 
 CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/check_texture_info.c > CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/check_texture_info.c > CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/check_texture_info.c -o CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/check_texture_info.c -o CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.o: ../src/parsing/debug/debug_display.c
 CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.o -MF CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/debug/debug_display.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.o -MF CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/debug/debug_display.c
 
 CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/debug/debug_display.c > CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/debug/debug_display.c > CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/debug/debug_display.c -o CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/debug/debug_display.c -o CMakeFiles/cube3D.dir/src/parsing/debug/debug_display.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.o: ../src/parsing/error/format_errors.c
 CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.o -MF CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/error/format_errors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.o -MF CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/error/format_errors.c
 
 CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/error/format_errors.c > CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/error/format_errors.c > CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/error/format_errors.c -o CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/error/format_errors.c -o CMakeFiles/cube3D.dir/src/parsing/error/format_errors.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.o: ../src/parsing/error/map_error.c
 CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.o -MF CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/error/map_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.o -MF CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/error/map_error.c
 
 CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/error/map_error.c > CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/error/map_error.c > CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/error/map_error.c -o CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/error/map_error.c -o CMakeFiles/cube3D.dir/src/parsing/error/map_error.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.o: ../src/parsing/error/player_error.c
 CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.o -MF CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/error/player_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.o -MF CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/error/player_error.c
 
 CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/error/player_error.c > CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/error/player_error.c > CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/error/player_error.c -o CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/error/player_error.c -o CMakeFiles/cube3D.dir/src/parsing/error/player_error.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.o: ../src/parsing/error/texture_error.c
 CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.o -MF CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/error/texture_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.o -MF CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/error/texture_error.c
 
 CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/error/texture_error.c > CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/error/texture_error.c > CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/error/texture_error.c -o CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/error/texture_error.c -o CMakeFiles/cube3D.dir/src/parsing/error/texture_error.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/get_map.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/get_map.c.o: ../src/parsing/get_map.c
 CMakeFiles/cube3D.dir/src/parsing/get_map.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/cube3D.dir/src/parsing/get_map.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/get_map.c.o -MF CMakeFiles/cube3D.dir/src/parsing/get_map.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/get_map.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/get_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/cube3D.dir/src/parsing/get_map.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/get_map.c.o -MF CMakeFiles/cube3D.dir/src/parsing/get_map.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/get_map.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/get_map.c
 
 CMakeFiles/cube3D.dir/src/parsing/get_map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/get_map.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/get_map.c > CMakeFiles/cube3D.dir/src/parsing/get_map.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/get_map.c > CMakeFiles/cube3D.dir/src/parsing/get_map.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/get_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/get_map.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/get_map.c -o CMakeFiles/cube3D.dir/src/parsing/get_map.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/get_map.c -o CMakeFiles/cube3D.dir/src/parsing/get_map.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.o: ../src/parsing/get_map_info.c
 CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.o -MF CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/get_map_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.o -MF CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/get_map_info.c
 
 CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/get_map_info.c > CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/get_map_info.c > CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/get_map_info.c -o CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/get_map_info.c -o CMakeFiles/cube3D.dir/src/parsing/get_map_info.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.o: ../src/parsing/get_size_map.c
 CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.o -MF CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/get_size_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.o -MF CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/get_size_map.c
 
 CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/get_size_map.c > CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/get_size_map.c > CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/get_size_map.c -o CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/get_size_map.c -o CMakeFiles/cube3D.dir/src/parsing/get_size_map.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.o: ../src/parsing/images/get_images.c
 CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.o -MF CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/images/get_images.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.o -MF CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/images/get_images.c
 
 CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/images/get_images.c > CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/images/get_images.c > CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/images/get_images.c -o CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/images/get_images.c -o CMakeFiles/cube3D.dir/src/parsing/images/get_images.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/parse_map.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/parse_map.c.o: ../src/parsing/parse_map.c
 CMakeFiles/cube3D.dir/src/parsing/parse_map.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/cube3D.dir/src/parsing/parse_map.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/parse_map.c.o -MF CMakeFiles/cube3D.dir/src/parsing/parse_map.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/parse_map.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/parse_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/cube3D.dir/src/parsing/parse_map.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/parse_map.c.o -MF CMakeFiles/cube3D.dir/src/parsing/parse_map.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/parse_map.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/parse_map.c
 
 CMakeFiles/cube3D.dir/src/parsing/parse_map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/parse_map.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/parse_map.c > CMakeFiles/cube3D.dir/src/parsing/parse_map.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/parse_map.c > CMakeFiles/cube3D.dir/src/parsing/parse_map.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/parse_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/parse_map.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/parse_map.c -o CMakeFiles/cube3D.dir/src/parsing/parse_map.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/parse_map.c -o CMakeFiles/cube3D.dir/src/parsing/parse_map.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.o: ../src/parsing/utils/check_base.c
 CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/check_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/check_base.c
 
 CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/check_base.c > CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/check_base.c > CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/check_base.c -o CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/check_base.c -o CMakeFiles/cube3D.dir/src/parsing/utils/check_base.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.o: ../src/parsing/utils/check_format_file_cub.c
 CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/check_format_file_cub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/check_format_file_cub.c
 
 CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/check_format_file_cub.c > CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/check_format_file_cub.c > CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/check_format_file_cub.c -o CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/check_format_file_cub.c -o CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_cub.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.o: ../src/parsing/utils/check_format_file_xpm.c
 CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/check_format_file_xpm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/check_format_file_xpm.c
 
 CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/check_format_file_xpm.c > CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/check_format_file_xpm.c > CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/check_format_file_xpm.c -o CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/check_format_file_xpm.c -o CMakeFiles/cube3D.dir/src/parsing/utils/check_format_file_xpm.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.o: ../src/parsing/utils/check_line_space.c
 CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/check_line_space.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/check_line_space.c
 
 CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/check_line_space.c > CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/check_line_space.c > CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/check_line_space.c -o CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/check_line_space.c -o CMakeFiles/cube3D.dir/src/parsing/utils/check_line_space.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.o: ../src/parsing/utils/colors.c
 CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/colors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/colors.c
 
 CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/colors.c > CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/colors.c > CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/colors.c -o CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/colors.c -o CMakeFiles/cube3D.dir/src/parsing/utils/colors.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.o: ../src/parsing/utils/get_player_position.c
 CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/get_player_position.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/get_player_position.c
 
 CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/get_player_position.c > CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/get_player_position.c > CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/get_player_position.c -o CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/get_player_position.c -o CMakeFiles/cube3D.dir/src/parsing/utils/get_player_position.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.o: ../src/parsing/utils/size_char_tab.c
 CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/size_char_tab.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/size_char_tab.c
 
 CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/size_char_tab.c > CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/size_char_tab.c > CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/size_char_tab.c -o CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/size_char_tab.c -o CMakeFiles/cube3D.dir/src/parsing/utils/size_char_tab.c.s
 
 CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.o: CMakeFiles/cube3D.dir/flags.make
 CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.o: ../src/parsing/utils/valide_map.c
 CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.o: CMakeFiles/cube3D.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.o -c /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/valide_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.o -MF CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.o.d -o CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.o -c /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/valide_map.c
 
 CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/valide_map.c > CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/valide_map.c > CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.i
 
 CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plavergn/CLionProjects/Cub3D/src/parsing/utils/valide_map.c -o CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathmart/CLionProjects/Cub3D/src/parsing/utils/valide_map.c -o CMakeFiles/cube3D.dir/src/parsing/utils/valide_map.c.s
 
 # Object files for target cube3D
 cube3D_OBJECTS = \
@@ -484,7 +512,9 @@ cube3D_OBJECTS = \
 "CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o" \
 "CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o" \
 "CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o" \
+"CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.o" \
 "CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o" \
+"CMakeFiles/cube3D.dir/src/game/window/put_player.c.o" \
 "CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o" \
 "CMakeFiles/cube3D.dir/src/main.c.o" \
 "CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o" \
@@ -517,7 +547,9 @@ cube3D: CMakeFiles/cube3D.dir/src/game/utils/destroy_game.c.o
 cube3D: CMakeFiles/cube3D.dir/src/game/utils/draw_cube.c.o
 cube3D: CMakeFiles/cube3D.dir/src/game/utils/draw_cube_left.c.o
 cube3D: CMakeFiles/cube3D.dir/src/game/utils/key_press_hook.c.o
+cube3D: CMakeFiles/cube3D.dir/src/game/window/put_floor_and_ceiling.c.o
 cube3D: CMakeFiles/cube3D.dir/src/game/window/put_images_to_window.c.o
+cube3D: CMakeFiles/cube3D.dir/src/game/window/put_player.c.o
 cube3D: CMakeFiles/cube3D.dir/src/init/init_main_struct.c.o
 cube3D: CMakeFiles/cube3D.dir/src/main.c.o
 cube3D: CMakeFiles/cube3D.dir/src/parsing/check_texture_info.c.o
@@ -544,7 +576,7 @@ cube3D: liblibft.a
 cube3D: libmlx.a
 cube3D: libbetter.a
 cube3D: CMakeFiles/cube3D.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable cube3D"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking C executable cube3D"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cube3D.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -556,6 +588,6 @@ CMakeFiles/cube3D.dir/clean:
 .PHONY : CMakeFiles/cube3D.dir/clean
 
 CMakeFiles/cube3D.dir/depend:
-	cd /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/plavergn/CLionProjects/Cub3D /Users/plavergn/CLionProjects/Cub3D /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug /Users/plavergn/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles/cube3D.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mathmart/CLionProjects/Cub3D /Users/mathmart/CLionProjects/Cub3D /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug /Users/mathmart/CLionProjects/Cub3D/cmake-build-debug/CMakeFiles/cube3D.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cube3D.dir/depend
 

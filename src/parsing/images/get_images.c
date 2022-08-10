@@ -32,8 +32,6 @@ static void	free_images_path(t_game *game)
 	game->texture->s_path = NULL;
 	game->texture->w_path = NULL;
 	game->texture->e_path = NULL;
-	free(game->texture);
-	game->texture = NULL;
 }
 
 void	get_image_xpm(t_game *game)
