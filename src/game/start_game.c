@@ -30,6 +30,7 @@ static int	game_loop(t_game *game)
 {
 	bettermlx_clean_display(game->window);
 	put_images_to_window(game);
+	put_player(game, game->player);
 	movement(game);
 	if (game->window->keyboard[KEY_ESCAPE])
 		close_game(game);
