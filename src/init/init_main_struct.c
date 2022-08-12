@@ -24,6 +24,9 @@ static t_player	*init_player(void)
 	player->pos.vy = 0;
 	player->pos.vx = 0;
 	player->pos.vz = 0;
+	player->angle = 0;
+	player->half_size = 0;
+	player->delta = create_vector(0, 0, 0);
 	player->orientation = 'm';
 	return (player);
 }

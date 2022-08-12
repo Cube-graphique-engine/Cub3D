@@ -19,9 +19,13 @@
 
 typedef struct s_player
 {
-	size_t		pos_x;
-	size_t		pos_y;
+	int			pos_x;
+	int			pos_y;
+	int			size;
+	float		half_size;
 	t_vector3	pos;
+	t_vector3	delta;
+	float		angle;
 	char		orientation;
 }				t_player;
 

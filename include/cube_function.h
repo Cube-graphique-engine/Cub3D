@@ -60,7 +60,7 @@ void	put_player(t_game *game, t_player *player);
 void	put_floor_and_ceiling(t_game *game);
 
 /* game/movement */
-void	movement(t_game *game);
+void	movement(t_game *game, t_player *player);
 
 /* Images */
 void	get_image_xpm(t_game *game);
