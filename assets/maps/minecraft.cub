@@ -1,7 +1,7 @@
-NO ./Config/minecraft/oak_planks.xpm
-SO ./Config/minecraft/oak_planks.xpm
-WE ./Config/minecraft/oak_planks.xpm
-EA ./Config/minecraft/oak_planks.xpm
+NO ./assets/config/minecraft/oak_planks.xpm
+SO ./assets/config/minecraft/oak_planks.xpm
+WE ./assets/config/minecraft/oak_planks.xpm
+EA ./assets/config/minecraft/oak_planks.xpm
 
 F 220,100,0
 C 225,30,0
