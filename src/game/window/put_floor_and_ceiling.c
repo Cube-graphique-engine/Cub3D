@@ -17,7 +17,6 @@ static void	put_floor(t_game *game, float start, t_color color)
 	float		x;
 	t_vector3	vector;
 
-	printf("start = %f\n", start);
 	while (start < WIN_HEIGHT)
 	{
 		x = 0;

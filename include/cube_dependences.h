@@ -25,5 +25,6 @@
 # define WIN_HEIGHT 1080
 # define SPPED 10
 # define WIN_DIVIDER 1
+# define PI 3.14159265359
 
 #endif

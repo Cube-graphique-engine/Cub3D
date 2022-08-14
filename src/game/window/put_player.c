@@ -14,5 +14,6 @@
 
 void	put_player(t_game *game, t_player *player)
 {
-	draw_cube(16, player->pos, create_icolor(1, 255, 255, 30), game);
+	draw_cube((float)player->size, player->pos, \
+			  create_icolor(1, 255, 255, 30), game);
 }
