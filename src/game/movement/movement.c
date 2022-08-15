@@ -64,9 +64,8 @@ static int  check_wall(t_game *game, int key)
 //	return (0);
 //}
 
-void	movement(t_game *game, t_player *player)
+void	movement(t_game *game)
 {
-	(void)player;
 	if (game->window->keyboard[KEY_W] && check_wall(game, 0/*player->half_size*/))
 	{
 		if (game->player->pos.vy - SPPED < 64 + SPPED + 0.5)
@@ -91,5 +90,22 @@ void	movement(t_game *game, t_player *player)
 			game->player->pos.vx += WIN_WIDTH;
 		game->player->pos.vx += SPPED;
 	}
+}
+
+void	angle_mov(t_game *game)
+{
+    if (game->window->keyboard[KEY_LEFT])
+    {
+        game->player->angle += 10;
+    }
+    if (game->window->keyboard[KEY_RIGHT])
+    {
+        game->player->angle -= 10;
+    }
+    if (game->player->angle < 0)
+        game->player->angle = 360 + game->player->angle;
+    if (game->player->angle > 360)
+        game->player->angle = game->player->angle - 360;
+    printf("angle : %f\n", game->player->angle);
 }
 

@@ -34,7 +34,9 @@ static int	game_loop(t_game *game)
 	put_images_to_window(game);
 	put_player(game, game->player);
 	movement(game);
-	if (game->window->keyboard[KEY_ESCAPE])
+    angle_mov(game);
+    display_ray(game);
+    if (game->window->keyboard[KEY_ESCAPE])
 		close_game(game);
 	bettermlx_render(game->window);
 	return (0);

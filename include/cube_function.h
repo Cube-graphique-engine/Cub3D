@@ -60,9 +60,14 @@ void	put_player(t_game *game, t_player *player);
 void	put_floor_and_ceiling(t_game *game);
 
 /* game/movement */
-void	movement(t_game *game, t_player *player);
+void	movement(t_game *game);
+void	angle_mov(t_game *game);
 
 /* Images */
 void	get_image_xpm(t_game *game);
+
+/* Raycasting */
+
+void    display_ray(t_game *game);
 
 #endif
