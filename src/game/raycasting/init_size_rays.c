@@ -1,31 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   cube_dependences.h                                 :+:      :+:    :+:   */
+/*   init_size_rays.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/01 17:04:44 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/15 17:13:44 by mathismartini    ###   ########.fr       */
+/*   Created: 2022/08/15 19:31:19 by mathismartini     #+#    #+#             */
+/*   Updated: 2022/08/15 19:31:52 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CUBE_CUBE_DEPENDENCES_H
-#define CUBE_CUBE_DEPENDENCES_H
+#include "cube.h"
 
-# include <stdlib.h>
-# include <stdio.h>
-# include <unistd.h>
-# include <fcntl.h>
-# include <stdbool.h>
-# include <math.h>
-
-# define TRANSPARENCY 0
-# define WIN_WIDTH 1920
-# define WIN_HEIGHT 1080
-# define SPEED 10
-# define HUD 190
-# define WIN_DIVIDER 1
-# define PI 3.14159265359
-
-#endif
+void	init_ray_size(t_ray *ray)
+{
+	ray->lineh = (int)(ray->size_cube / ray->raydist);
+	ray->start = -ray->lineh * 0.5 + ray->size_cube * 0.5;
+	if (ray->start < 0)
+		ray->start = 0;
+	ray->stop = ray->lineh * 0.5 + ray->size_cube * 0.5;
+	if (ray->stop >= ray->size_cube)
+		ray->stop = ray->size_cube - 1;
+}

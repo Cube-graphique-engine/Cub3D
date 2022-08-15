@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:02:48 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/05 16:32:33 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/15 20:34:49 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,15 +17,42 @@
 # include <bettermlx_struct.h>
 # include <math.h>
 
+typedef struct s_ray
+{
+	t_vector3	ray_dist;
+	t_vector3	delta;
+	t_vector3	side_dist;
+	t_vector3	map_pos;
+	t_vector3	step;
+	double		wallx;
+	double		tex_pos;
+	double		step_wall;
+	float		screenx;
+	float		raydist;
+	int			tex_x;
+	int			tex_y;
+	int			side;
+	int			lineh;
+	int			size_cube;
+	int			start;
+	int			stop;
+	bool		done;
+}				t_ray;
+
 typedef struct s_player
 {
-	int			pos_x;
-	int			pos_y;
-	int			size;
-	float		half_size;
+	size_t		pos_x;
+	size_t		pos_y;
 	t_vector3	pos;
+	t_vector3	cam;
+	t_vector3	direction;
 	t_vector3	delta;
+	t_vector3	spawn;
+	float		fov;
+	float		sensi;
+	float		speed;
 	float		angle;
+	float		half_size;
 	char		orientation;
 }				t_player;
 
@@ -54,22 +81,14 @@ typedef struct s_map
     size_t  size;
 }				t_map;
 
-typedef struct s_cube_coo
-{
-	t_vector3 	up_left;
-	t_vector3	down_left;
-	t_vector3	up_right;
-	t_vector3	down_right;
-}				t_cube_coo;
-
 //Main struct
 typedef struct s_game
 {
 	t_map		*map;
 	t_texture	*texture;
 	t_player	*player;
+	t_ray		*ray;
 	t_window	*window;
-	t_cube_coo	coord;
 	t_image		*n_image;
 	t_image		*s_image;
 	t_image		*w_image;

@@ -1,31 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   cube_dependences.h                                 :+:      :+:    :+:   */
+/*   display_line.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/01 17:04:44 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/15 17:13:44 by mathismartini    ###   ########.fr       */
+/*   Created: 2022/08/15 20:29:38 by mathismartini     #+#    #+#             */
+/*   Updated: 2022/08/15 20:30:15 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CUBE_CUBE_DEPENDENCES_H
-#define CUBE_CUBE_DEPENDENCES_H
+#include "cube.h"
 
-# include <stdlib.h>
-# include <stdio.h>
-# include <unistd.h>
-# include <fcntl.h>
-# include <stdbool.h>
-# include <math.h>
+void	display_line(t_game *game, t_ray *ray, int x)
+{
+	int	i;
 
-# define TRANSPARENCY 0
-# define WIN_WIDTH 1920
-# define WIN_HEIGHT 1080
-# define SPEED 10
-# define HUD 190
-# define WIN_DIVIDER 1
-# define PI 3.14159265359
-
-#endif
+	i = -1;
+	while (++i < ray->start)
+		bettermlx_pixel_put(game->window, create_vector(x, i, 0), \
+			game->texture->ceiling, 1);
+	while (i < ray->stop)
+		i++;
+	while (i < WIN_HEIGHT - HUD)
+	{
+		bettermlx_pixel_put(game->window, create_vector(x, i, 0), \
+			game->texture->floor, 1);
+		i++;
+	}
+}

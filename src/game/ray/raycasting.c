@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cube.h"
+/*#include "cube.h"
 
 int check_wall_ray(t_game *game, float x, float y, float index_x_y[2])
 {
@@ -124,4 +124,4 @@ void    display_ray_north(t_game *game)
 void    display_ray(t_game *game)
 {
 	display_ray_north(game);
-}
+}*/

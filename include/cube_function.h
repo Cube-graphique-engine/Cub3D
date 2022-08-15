@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:44:43 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/02 17:53:15 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/15 20:27:07 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,28 +46,28 @@ bool	is_validate_map(t_map *map, int x, int y);
 void	start_game(t_game *game);
 int		close_game(t_game *game);
 
+/* game/images */
+void	get_image_xpm(t_game *game);
+
+/* game/init */
+void	init_player_orientation(t_player *player);
+void	game_init(t_game *game);
+
+/* game/raycasting */
+void	do_raycast(t_game *game);
+void	ray_step(t_player *player, t_ray *ray);
+void	init_ray_size(t_ray *ray);
+void	display_walls(t_game *game, t_ray *ray, t_vector3 i);
+void	display_line(t_game *game, t_ray *ray, int x);
+
 /* game/utils */
 int		key_press_hook(int key_code, t_game *game);
 int		key_release_hook(int key_code, t_game *game);
 void	destroy_game(t_game *game);
-void	game_init(t_game *game);
 void	draw_cube(float size, t_vector3 vec, t_color color, t_game *game);
 void	draw_cube_left(float size, t_vector3 vec, t_color color, t_game *game);
 
-/* Gmae/window */
+/* game/window */
 void	put_images_to_window(t_game *game);
-void	put_player(t_game *game, t_player *player);
-void	put_floor_and_ceiling(t_game *game);
-
-/* game/movement */
-void	movement(t_game *game);
-void	angle_mov(t_game *game);
-
-/* Images */
-void	get_image_xpm(t_game *game);
-
-/* Raycasting */
-
-void    display_ray(t_game *game);
 
 #endif

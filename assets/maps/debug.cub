@@ -1,7 +1,7 @@
 NO  ./assets/config/debug/north.xpm
 SO  ./assets/config/debug/south.xpm
 WE  ./assets/config/debug/west.xpm
-EA  ./assets/config/debug/east.xpm
+EA  ./assets/config/debug/west.xpm
 
 F 220,100,0
 C 225,30,0
