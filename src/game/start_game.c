@@ -31,8 +31,8 @@ int	close_game(t_game *game)
 static int	game_loop(t_game *game)
 {
 	put_floor_and_ceiling(game);
-	put_images_to_window(game);
-	put_player(game, game->player);
+//	put_images_to_window(game);
+//	put_player(game, game->player);
 	movement(game);
     angle_mov(game);
     display_ray(game);
