@@ -10,72 +10,144 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*#include "cube.h"
+#include "cube.h"
 
-static int  check_wall(t_game *game, int key)
-{
-    if (key == 0)
-    {
-        if (game->map->str_map[((int)game->player->pos.vy - 10) / 64] \
-        	[(int)game->player->pos.vx / 64] != '1')
-            return (1);
-    }
-    if (key == 1)
-    {
-        if (game->map->str_map[((int)game->player->pos.vy + 10) / 64]\
-        	[(int)game->player->pos.vx / 64] != '1')
-            return (1);
-    }
-    if (key == 2)
-    {
-        if (game->map->str_map[(int)(game->player->pos.vy * 0.015625)] \
-			[(int)((game->player->pos.vx - game->player->size) * 0.015625)] != '1')
-            return (1);
-    }
-    if (key == 3)
-    {
-        if (game->map->str_map[(int)(game->player->pos.vy * 0.015625)] \
-			[(int)((game->player->pos.vx + game->player->size) * 0.015625)] != '1')
-            return (1);
-    }
-    return (0);
-}
 
-void	movement(t_game *game, t_player *player)
-{
-	(void)player;
-	if (game->window->keyboard[KEY_W] && check_wall(game, 0*/
-/*player->half_size*//*
-))
-	{
-		if (game->player->pos.vy - SPEED < 64 + SPEED + 0.5)
-			game->player->pos.vy = 64;
-		game->player->pos.vy -= SPEED;
-	}
-	if (game->window->keyboard[KEY_S] && check_wall(game, 1*/
-/*player->half_size*//*
-))
-	{
-		if (game->player->pos.vy + SPEED > WIN_HEIGHT)
-			game->player->pos.vy += WIN_HEIGHT;
-		game->player->pos.vy += SPEED;
-	}
-	if (game->window->keyboard[KEY_A] && check_wall(game, 2*/
-/*player->half_size*//*
-))
-	{
-		if (game->player->pos.vx - SPEED < 64 + SPEED + 0.5)
-			game->player->pos.vx = 64 + 0.5;
-		game->player->pos.vx -= SPEED;
-	}
-	if (game->window->keyboard[KEY_D] && check_wall(game, 3*/
-/*player->half_size*//*
-))
-	{
-		if (game->player->pos.vx + SPEED > WIN_WIDTH)
-			game->player->pos.vx += WIN_WIDTH;
-		game->player->pos.vx += SPEED;
-	}
-}
 
-*/
+//static int  check_wall(t_game *game, int key)
+//{
+//	if (key == 0)
+//	{
+//		printf("ofuygerfl\n");
+//		if (game->map->str_map[(int)((game->player->pos.vy - 0.1) * 0.5)] \
+//        	[(int)(game->player->pos.vx * 0.5)] != '1')
+//			return (1);
+//	}
+//	if (key == 1)
+//	{
+//		if (game->map->str_map[(int)((game->player->pos.vy + 0.1) * 0.5)]\
+//        	[(int)(game->player->pos.vx * 0.5)] != '1')
+//			return (1);
+//	}
+//	if (key == 2)
+//	{
+//		if (game->map->str_map[(int)(game->player->pos.vy * 0.5)] \
+//			[(int)((game->player->pos.vx - 0.1) * 0.5)] != '1')
+//			return (1);
+//	}
+//	if (key == 3)
+//	{
+//		if (game->map->str_map[(int)(game->player->pos.vy * 0.5)] \
+//			[(int)((game->player->pos.vx + 0.1) * 0.5)] != '1')
+//			return (1);
+//	}
+//	return (0);
+//}
+////015625
+//void	movement(t_game *game)
+//{
+//	if (game->window->keyboard[KEY_W] && check_wall(game, 0))
+//	{
+////		if (game->player->pos.vy - SPEED < 64 + SPEED + 0.5)
+////			game->player->pos.vy = 64;
+//		game->player->pos.vy -= 0.01;
+//		printf("W");
+//	}
+//	if (game->window->keyboard[KEY_S] && check_wall(game, 1))
+//	{
+////		if (game->player->pos.vy + SPEED > WIN_HEIGHT)
+////			game->player->pos.vy += WIN_HEIGHT;
+//		game->player->pos.vy += 0.01;
+//		printf("S");
+//	}
+//	if (game->window->keyboard[KEY_A] && check_wall(game, 2))
+//	{
+////		if (game->player->pos.vx - SPEED < 64 + SPEED + 0.5)
+////			game->player->pos.vx = 64 + 0.5;
+//		game->player->pos.vx -= 0.01;
+//		printf("A");
+//	}
+//	if (game->window->keyboard[KEY_D] && check_wall(game, 3))
+//	{
+////		if (game->player->pos.vx + SPEED > WIN_WIDTH)
+////			game->player->pos.vx += WIN_WIDTH;
+//		game->player->pos.vx += 0.01;
+//		printf("D");
+//	}
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//static int  check_wall(t_game *game, int key)
+//{
+//    if (key == 0)
+//    {
+//        if (game->map->str_map[((int)game->player->pos.vy - 10) / 64] \
+//        	[(int)game->player->pos.vx / 64] != '1')
+//            return (1);
+//    }
+//    if (key == 1)
+//    {
+//        if (game->map->str_map[((int)game->player->pos.vy + 10) / 64]\
+//        	[(int)game->player->pos.vx / 64] != '1')
+//            return (1);
+//    }
+//    if (key == 2)
+//    {
+//        if (game->map->str_map[(int)(game->player->pos.vy * 0.015625)] \
+//			[(int)((game->player->pos.vx) * 0.015625)] != '1')
+//            return (1);
+//    }
+//    if (key == 3)
+//    {
+//        if (game->map->str_map[(int)(game->player->pos.vy * 0.015625)] \
+//			[(int)((game->player->pos.vx) * 0.015625)] != '1')
+//            return (1);
+//    }
+//    return (0);
+//}
+//
+//void	movement(t_game *game, t_player *player)
+//{
+//	(void)player;
+//	if (game->window->keyboard[KEY_W] && check_wall(game, 0/
+//			player->half_size))
+//	{
+//		if (game->player->pos.vy - SPEED < 64 + SPEED + 0.5)
+//			game->player->pos.vy = 64;
+//		game->player->pos.vy -= SPEED;
+//	}
+//	if (game->window->keyboard[KEY_S] && check_wall(game, 1/
+//			player->half_size))
+//	{
+//		if (game->player->pos.vy + SPEED > WIN_HEIGHT)
+//			game->player->pos.vy += WIN_HEIGHT;
+//		game->player->pos.vy += SPEED;
+//	}
+//	if (game->window->keyboard[KEY_A] && check_wall(game, 2/
+//			player->half_size))
+//	{
+//		if (game->player->pos.vx - SPEED < 64 + SPEED + 0.5)
+//			game->player->pos.vx = 64 + 0.5;
+//		game->player->pos.vx -= SPEED;
+//	}
+//	if (game->window->keyboard[KEY_D] && check_wall(game, 3/
+//			player->half_size))
+//	{
+//		if (game->player->pos.vx + SPEED > WIN_WIDTH)
+//			game->player->pos.vx += WIN_WIDTH;
+//		game->player->pos.vx += SPEED;
+//	}
+//}
+//
+
