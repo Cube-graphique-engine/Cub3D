@@ -43,6 +43,14 @@ static int  check_wall(t_game *game, int key)
 
 void	movement(t_game *game)
 {
+	if (game->window->keyboard[KEY_LEFT])
+	{
+		game->player->cam.vy -= 0.2;
+	}
+	if (game->window->keyboard[KEY_RIGHT])
+	{
+		game->player->cam.vy += 0.2;
+	}
 	if (game->window->keyboard[KEY_W] && check_wall(game, 0))
 	{
 		game->player->pos.vy -= 0.2;
@@ -127,6 +135,4 @@ void	movement(t_game *game, t_player *player)
 		game->player->pos.vx += SPEED;
 	}
 }
-
-
 */
