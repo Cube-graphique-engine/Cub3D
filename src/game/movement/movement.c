@@ -15,62 +15,38 @@
 static int  check_wall(t_game *game, int key)
 {
 	if (key == 0)
-	{
-		if (game->map->str_map[(int)((game->player->pos.vy - 0.2) * 0.015625)] \
+		if (game->map->str_map[(int)((game->player->pos.vy - 0.1) * 0.015625)] \
         	[(int)(game->player->pos.vx * 0.015625)] != '1')
 			return (1);
-	}
 	if (key == 1)
-	{
-		if (game->map->str_map[(int)((game->player->pos.vy + 0.2) * 0.015625)] \
+		if (game->map->str_map[(int)((game->player->pos.vy + 0.1) * 0.015625)] \
         	[(int)(game->player->pos.vx * 0.015625)] != '1')
 			return (1);
-	}
 	if (key == 2)
-	{
 		if (game->map->str_map[(int)(game->player->pos.vy * 0.015625)] \
-			[(int)((game->player->pos.vx - 0.2) * 0.015625)] != '1')
+			[(int)((game->player->pos.vx - 0.1) * 0.015625)] != '1')
 			return (1);
-	}
 	if (key == 3)
-	{
 		if (game->map->str_map[(int)(game->player->pos.vy * 0.015625)] \
-			[(int)((game->player->pos.vx + 0.2) * 0.015625)] != '1')
+			[(int)((game->player->pos.vx + 0.1) * 0.015625)] != '1')
 			return (1);
-	}
 	return (0);
 }
 
 void	movement(t_game *game)
 {
 	if (game->window->keyboard[KEY_LEFT])
-	{
-		game->player->cam.vy -= 0.2;
-	}
-	if (game->window->keyboard[KEY_RIGHT])
-	{
-		game->player->cam.vy += 0.2;
-	}
-	if (game->window->keyboard[KEY_W] && check_wall(game, 0))
-	{
-		game->player->pos.vy -= 0.2;
-		printf("W");
-	}
-	if (game->window->keyboard[KEY_S] && check_wall(game, 1))
-	{
-		game->player->pos.vy += 0.2;
-		printf("S");
-	}
-	if (game->window->keyboard[KEY_A] && check_wall(game, 2))
-	{
-		game->player->pos.vx -= 0.2;
-		printf("A");
-	}
-	if (game->window->keyboard[KEY_D] && check_wall(game, 3))
-	{
-		game->player->pos.vx += 0.2;
-		printf("D");
-	}
+		game->player->cam.vy -= 0.1;
+	else if (game->window->keyboard[KEY_RIGHT])
+		game->player->cam.vy += 0.1;
+	else if (game->window->keyboard[KEY_W] && check_wall(game, 0))
+		game->player->pos.vy -= 0.1;
+	else if (game->window->keyboard[KEY_S] && check_wall(game, 1))
+		game->player->pos.vy += 0.1;
+	else if (game->window->keyboard[KEY_A] && check_wall(game, 2))
+		game->player->pos.vx -= 0.1;
+	else if (game->window->keyboard[KEY_D] && check_wall(game, 3))
+		game->player->pos.vx += 0.1;
 }
 
 /*
