@@ -35,6 +35,8 @@ static int	game_loop(t_game *game)
 	if (game->window->keyboard[KEY_ESCAPE])
 		close_game(game);
 	bettermlx_render(game->window);
+	do_raycast(game);
+	movement(game);
 	return (0);
 }
 
@@ -43,11 +45,11 @@ void	start_game(t_game *game)
 	game->window = bettermlx_init_window("Cub3D", WIN_WIDTH, WIN_HEIGHT,
 			WIN_DIVIDER);
 	get_image_xpm(game);
-	if (game->e_image == NULL){
+	if (game->e_image == NULL)
+	{
 		printf("couscous c'est la vie!");
 		exit(1);
 	}
 	game_init(game);
-	do_raycast(game);
 	bettermlx_register_loop(game->window, game, game_loop);
 }

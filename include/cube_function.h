@@ -70,4 +70,7 @@ void	draw_cube_left(float size, t_vector3 vec, t_color color, t_game *game);
 /* game/window */
 void	put_images_to_window(t_game *game);
 
+/* game/movement */
+void	movement(t_game *game);
+
 #endif
