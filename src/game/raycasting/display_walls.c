@@ -30,8 +30,6 @@ void	display_walls(t_game *game, t_ray *ray, t_vector3 i)
 	t_image	*image;
 
 	image = get_dir_wall(game, ray);
-	if (image == NULL)
-		printf("BITE\n");
 	if (ray->side == 0)
 		ray->wallx = game->player->pos.vy + ray->raydist * ray->ray_dist.vy;
 	else

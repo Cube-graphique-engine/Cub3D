@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 16:02:20 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/15 20:45:37 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/18 22:40:38 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,9 +34,20 @@ static int	game_loop(t_game *game)
 {
 	if (game->window->keyboard[KEY_ESCAPE])
 		close_game(game);
-	bettermlx_render(game->window);
+	player_move(game, game->window);
+	use_mouse(game);
+	if (game->window->keyboard[KEY_RIGHT])
+	{
+		game->player->sensi = 0.015f;
+		rotate_right(game->player);
+	}
+	if (game->window->keyboard[KEY_LEFT])
+	{
+		game->player->sensi = 0.015f;
+		rotate_left(game->player);
+	}
 	do_raycast(game);
-	movement(game);
+	bettermlx_render(game->window);
 	return (0);
 }
 
@@ -45,11 +56,6 @@ void	start_game(t_game *game)
 	game->window = bettermlx_init_window("Cub3D", WIN_WIDTH, WIN_HEIGHT,
 			WIN_DIVIDER);
 	get_image_xpm(game);
-	if (game->e_image == NULL)
-	{
-		printf("couscous c'est la vie!");
-		exit(1);
-	}
 	game_init(game);
 	bettermlx_register_loop(game->window, game, game_loop);
 }

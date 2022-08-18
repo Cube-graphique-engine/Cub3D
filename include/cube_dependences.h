@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:04:44 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/15 17:13:44 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/18 21:17:23 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,10 @@
 # include <math.h>
 
 # define TRANSPARENCY 0
-# define WIN_WIDTH 1920
-# define WIN_HEIGHT 1080
+# define WIN_WIDTH 1280
+# define WIN_HEIGHT 720
 # define SPEED 10
-# define HUD 190
+# define HUD 0
 # define WIN_DIVIDER 1
 # define PI 3.14159265359
 

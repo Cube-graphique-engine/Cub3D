@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:44:43 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/15 20:27:07 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/18 22:15:59 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,12 @@ void	get_image_xpm(t_game *game);
 void	init_player_orientation(t_player *player);
 void	game_init(t_game *game);
 
+/* game/movement */
+void	player_move(t_game *game, t_window *window);
+void	rotate_left(t_player *player);
+void	rotate_right(t_player *player);
+void	use_mouse(t_game *game);
+
 /* game/raycasting */
 void	do_raycast(t_game *game);
 void	ray_step(t_player *player, t_ray *ray);
@@ -69,8 +75,5 @@ void	draw_cube_left(float size, t_vector3 vec, t_color color, t_game *game);
 
 /* game/window */
 void	put_images_to_window(t_game *game);
-
-/* game/movement */
-void	movement(t_game *game);
 
 #endif
