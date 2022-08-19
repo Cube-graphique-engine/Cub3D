@@ -36,6 +36,9 @@ WHITE		= \033[1;49;97m
 TARGET		= cub3D
 SRCS		= $(shell find ./src -type f -name *.c)
 HEADS		= $(shell find ./include -type f -name *.h)
+HEADS_LIBFT	= $(shell find ./lib/libft -type f -name *.h)
+HEADS_BMLX	= $(shell find ./lib/minilibx -type f -name *.h)
+HEADS_MLX	= $(shell find ./lib/bettermlx/ -type f -name *.h)
 MK_DIR		= Config
 OBJS		= $(SRCS:%.c=%.o)
 OBJ_DIR 	= Objects
@@ -82,7 +85,7 @@ $(OBJ_DIR):
 #									Compilation C								#
 #################################################################################
 
-$(TARGET): $(LIBFT) $(MLX) $(BETTER) $(HEADS) $(OBJ_PATH)
+$(TARGET): $(LIBFT) $(MLX) $(BETTER) $(HEADS) $(OBJ_PATH) Makefile $(HEADS_LIBFT) $(HEADS_BMLX) $(HEADS_MLX)
 	@gcc $(LIB) -framework OpenGL -framework AppKit $(CFLAGS) $(OBJ_PATH) -o $(TARGET)
 	@printf "\033[2K\r$(BLUE)$(NAME)$(RESET)$(BLUEE): $(ICONOK)Compiled [√]$(RESET)\n"
 

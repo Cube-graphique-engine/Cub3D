@@ -46,7 +46,7 @@ void	player_move(t_game *game, t_window *window)
 
 	dir.vy = get_vy(window);
 	dir.vx = get_vx(window);
-	if (!dir. vx && !dir.vy)
+	if (!dir.vx && !dir.vy)
 		return ;
 	angle = atan2(dir.vy, dir.vx);
 	pred.vx = game->player->pos.vx + (dir.vx != 0) \
