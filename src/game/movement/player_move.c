@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/18 21:26:02 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/18 22:03:11 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/20 18:57:47 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,15 +32,15 @@ static float	get_vx(t_window *window)
 
 static void	pos_player(t_game *game, t_vector3 pred)
 {
-	if (game->map->str_map[(int)pred.vy][(int)pred.vx] != '1')
+	if (game->map->str_map[(int)pred.vy][(int)game->player->pos.vx] != '1')
 		game->player->pos.vy = pred.vy;
-	if (game->map->str_map[(int)pred.vy][(int)pred.vx] != '1')
+	if (game->map->str_map[(int)game->player->pos.vy][(int)pred.vx] != '1')
 		game->player->pos.vx = pred.vx;
 }
 
 void	player_move(t_game *game, t_window *window)
 {
-	t_vector3 	pred;
+	t_vector3	pred;
 	t_vector3	dir;
 	double		angle;
 

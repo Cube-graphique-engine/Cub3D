@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/15 17:30:57 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/15 21:41:05 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/20 16:23:28 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ static void	ray_algo(t_game *game, t_ray *ray)
 			ray->map_pos.vy += ray->step.vy;
 			ray->side = 1;
 		}
-		if (game->map->str_map[(int)ray->map_pos.vy] \
+		if (game->map->map[(int)ray->map_pos.vy] \
 			[(int)ray->map_pos.vx] == '1')
 			ray->done = true;
 	}
@@ -61,8 +61,8 @@ void	do_raycast(t_game *game)
 {
 	t_vector3	index;
 
-	index.vx = 0;
-	while (index.vx < WIN_WIDTH)
+	index.vx = -1;
+	while (++index.vx < WIN_WIDTH)
 	{
 		init_rays(game->player, game->ray, (int)index.vx);
 		ray_step(game->player, game->ray);
@@ -72,6 +72,5 @@ void	do_raycast(t_game *game)
 		init_ray_size(game->ray);
 		display_walls(game, game->ray, index);
 		display_line(game, game->ray, index.vx);
-		index.vx += 1;
 	}
 }

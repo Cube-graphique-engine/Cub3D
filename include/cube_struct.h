@@ -6,12 +6,12 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:02:48 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/15 20:34:49 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/20 19:24:19 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CUBE_CUBE_STRUCT_H
-#define CUBE_CUBE_STRUCT_H
+#ifndef CUBE_STRUCT_H
+# define CUBE_STRUCT_H
 
 # include <libft.h>
 # include <bettermlx_struct.h>
@@ -64,8 +64,8 @@ typedef struct s_texture
 	char	*w_path;
 	char	*d_floor;
 	char	*d_ceilling;
-	t_color floor;
-	t_color ceiling;
+	t_color	floor;
+	t_color	ceiling;
 }				t_texture;
 
 typedef struct s_map
@@ -78,7 +78,7 @@ typedef struct s_map
 	size_t	width;
 	size_t	start;
 	size_t	end;
-    size_t  size;
+	size_t	size;
 }				t_map;
 
 //Main struct

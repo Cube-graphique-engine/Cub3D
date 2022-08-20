@@ -6,12 +6,12 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:01:39 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/07/01 17:14:06 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/20 19:20:19 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CUBE_CUBE_H
-#define CUBE_CUBE_H
+#ifndef CUBE_H
+# define CUBE_H
 
 # include <libft.h>
 # include <mlx.h>

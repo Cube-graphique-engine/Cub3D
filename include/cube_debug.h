@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CUBE_CUBE_DEBUG_H
-#define CUBE_CUBE_DEBUG_H
+#ifndef CUBE_DEBUG_H
+# define CUBE_DEBUG_H
 
 # include "cube.h"
 

@@ -6,18 +6,18 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:44:43 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/18 22:15:59 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/20 19:22:20 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CUBE_CUBE_FUNCTION_H
-#define CUBE_CUBE_FUNCTION_H
+#ifndef CUBE_FUNCTION_H
+# define CUBE_FUNCTION_H
 
 # include "cube_struct.h"
 # include "cube_debug.h"
 
 /* init */
-t_game 	*init_main_struct(void);
+t_game	*init_main_struct(void);
 
 /* ************************************************************************** */
 /*									Parsing									  */
