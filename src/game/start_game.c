@@ -57,5 +57,6 @@ void	start_game(t_game *game)
 			WIN_DIVIDER);
 	get_image_xpm(game);
 	game_init(game);
+	do_raycast(game);
 	bettermlx_register_loop(game->window, game, game_loop);
 }

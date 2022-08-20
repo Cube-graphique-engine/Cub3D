@@ -25,9 +25,22 @@ static t_image 	*get_dir_wall(t_game *game,t_ray *ray)
 	return (NULL);
 }
 
+static void do_loop(t_ray *ray, t_vector3 i, t_game *game, t_image *image)
+{
+
+	i.vy = ray->start - 1;
+	while (++i.vy < ray->stop)
+	{
+		ray->tex_y = (int)ray->tex_pos & (image->width- 1);
+		ray->tex_pos += ray->step_wall;
+		bettermlx_pixel_put(game->window, i, \
+            bettermlx_get_color(image, ray->tex_x, ray->tex_y), 1);
+	}
+}
+
 void	display_walls(t_game *game, t_ray *ray, t_vector3 i)
 {
-	t_image	*image;
+	t_image *image;
 
 	image = get_dir_wall(game, ray);
 	if (ray->side == 0)
@@ -43,12 +56,5 @@ void	display_walls(t_game *game, t_ray *ray, t_vector3 i)
 	ray->step_wall = 1.0 * image->width / ray->lineh;
 	ray->tex_pos = (ray->start - (WIN_HEIGHT - HUD) * 0.5 + ray->lineh * 0.5) \
 	* ray->step_wall;
-	i.vy = ray->start - 1;
-	while (++i.vy < ray->stop)
-	{
-		ray->tex_y = (int)ray->tex_pos & (image->width- 1);
-		ray->tex_pos += ray->step_wall;
-		bettermlx_pixel_put(game->window, i, \
-            bettermlx_get_color(image, ray->tex_x, ray->tex_y), 1);
-	}
+	do_loop(ray, i, game, image);
 }

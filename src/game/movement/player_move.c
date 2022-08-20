@@ -32,9 +32,9 @@ static float	get_vx(t_window *window)
 
 static void	pos_player(t_game *game, t_vector3 pred)
 {
-	if (game->map->str_map[(int)pred.vy][(int)pred.vx] == '0')
+	if (game->map->str_map[(int)pred.vy][(int)pred.vx] != '1')
 		game->player->pos.vy = pred.vy;
-	if (game->map->str_map[(int)pred.vy][(int)pred.vx] == '0')
+	if (game->map->str_map[(int)pred.vy][(int)pred.vx] != '1')
 		game->player->pos.vx = pred.vx;
 }
 
