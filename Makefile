@@ -6,7 +6,7 @@
 #    By: mathmart <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/25 14:46:28 by mathmart          #+#    #+#              #
-#    Updated: 2022/08/15 17:13:44 by mathismartini    ###   ########.fr        #
+#    Updated: 2022/08/21 20:22:45 by mathismartini    ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,47 +33,39 @@ WHITE		= \033[1;49;97m
 #									Variables									#
 #################################################################################
 
-TARGET		= cub3D
+NAME		= cub3D
 SRCS		= $(shell find ./src -type f -name *.c)
 HEADS		= $(shell find ./include -type f -name *.h)
-HEADS_LIBFT	= $(shell find ./lib/libft -type f -name *.h)
-HEADS_BMLX	= $(shell find ./lib/minilibx -type f -name *.h)
-HEADS_MLX	= $(shell find ./lib/bettermlx/ -type f -name *.h)
-MK_DIR		= Config
+HEADS		+=$(shell find ./lib/libft -type f -name *.h)
+HEADS		+=$(shell find ./lib/minilibx -type f -name *.h)
+HEADS		+=$(shell find ./lib/bettermlx/ -type f -name *.h)
+HEADS		+= ./lib/libft/libft.a ./lib/minilibx/libmlx.a ./lib/bettermlx/libbettermlx.a
 OBJS		= $(SRCS:%.c=%.o)
 OBJ_DIR 	= Objects
 OBJ_PATH	= $(addprefix $(OBJ_DIR)/, $(OBJS))
-DEPENDES	= $(OBJ_PATH:%.o=%.d)
 CFLAGS		= -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe -fsanitize=address -g3
-LIBFT		= ./lib/libft/libft.a
-MLX			= ./lib/minilibx/libmlx.a
-BETTER		= ./lib/bettermlx/libbettermlx.a
 INCLUDES	= -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include
 INC_LIB		= -L ./lib/minilibx -L ./lib/bettermlx/ -lbettermlx
-LIB			= -lmlx $(INC_LIB) $(INC_INC) -L ./lib/libft/ -lft -lm
-CONFIG		= $(shell find [0-9a-zA-Z]* -type d -name "Config")
+LIB			= -lmlx $(INC_LIB) -L ./lib/libft/ -lft -lm
 
 #################################################################################
 #									Prerequis									#
 #################################################################################
-all: $(TARGET)
+
+all: libraries $(NAME)
+
+libraries:
+	@$(MAKE) -C ./lib/libft
+	@$(MAKE) -C ./lib/minilibx
+	@$(MAKE) -C ./lib/bettermlx
 
 build: all
-
-$(LIBFT):
-	@$(MAKE) -C ./lib/libft/
-
-$(MLX):
-	@$(MAKE) -C ./lib/minilibx
-
-$(BETTER):
-	@$(MAKE) -C ./lib/bettermlx
 
 #################################################################################
 #									Compilation Objects							#
 #################################################################################
 
-$(OBJ_DIR)/%.o: %.c | $(OBJ_DIR)
+$(OBJ_DIR)/%.o: %.c $(HEADS)| $(OBJ_DIR)
 	@mkdir -p $(@D)
 	@gcc $(CFLAGS) $(INCLUDES) -c $< -o $@
 	@printf "\033[2K\r$(PURPLE)$<: $(CYAN)loading..$(RESET)"
@@ -85,8 +77,8 @@ $(OBJ_DIR):
 #									Compilation C								#
 #################################################################################
 
-$(TARGET): $(LIBFT) $(MLX) $(BETTER) $(HEADS) $(OBJ_PATH) Makefile $(HEADS_LIBFT) $(HEADS_BMLX) $(HEADS_MLX)
-	@gcc $(LIB) -framework OpenGL -framework AppKit $(CFLAGS) $(OBJ_PATH) -o $(TARGET)
+$(NAME): $(OBJ_PATH)
+	@gcc $(LIB) -framework OpenGL -framework AppKit $(CFLAGS) $(OBJ_PATH) -o $(NAME)
 	@printf "\033[2K\r$(BLUE)$(NAME)$(RESET)$(BLUEE): $(ICONOK)Compiled [√]$(RESET)\n"
 
 #################################################################################
@@ -95,23 +87,24 @@ $(TARGET): $(LIBFT) $(MLX) $(BETTER) $(HEADS) $(OBJ_PATH) Makefile $(HEADS_LIBFT
 
 clean:
 	@$(RM) $(OBJ_PATH)
-	@printf "\033[1;31mDelete OBJS $(CO_DELET)$(TARGET)\033[3;32m [√]\033[0m\n"
+	@printf "\033[1;31mDelete OBJS $(CO_DELET)$(NAME)\033[3;32m [√]\033[0m\n"
 
 fclean:
 	@$(RM) $(OBJ_PATH)
-	@$(RM) $(TARGET)
-	@$(RM) -rf $(TARGET).dSYM a.out Objects
-	@printf "\033[1;31mDelete $(CO_DELET)$(TARGET)\033[3;32m [√]\033[0m\n"
+	@$(RM) $(NAME)
+	@$(RM) -rf $(NAME).dSYM a.out Objects
+	@printf "\033[1;31mDelete $(CO_DELET)$(NAME)\033[3;32m [√]\033[0m\n"
 
 clean_library:
-	@$(RM) -rf ./lib/libft/*.o
-	@$(RM) -rf ./lib/minilibx/*.o
-	@printf "\033[1;31mDelete Library OBJS $(CO_DELET)$(TARGET)\033[3;32m [√]\033[0m\n"
+	@$(MAKE) -C ./lib/libft clean
+	@$(MAKE) -C ./lib/minilibx clean
+	@$(MAKE) -C ./lib/bettermlx clean
+	@printf "\033[1;31mDelete Library OBJS $(CO_DELET)$(NAME)\033[3;32m [√]\033[0m\n"
 
 fclean_library: clean_library
-	@$(RM) -rf ./lib/libft/libft.a
-	@$(RM) -rf ./lib/minilibx/*.a
-	@printf "\033[1;31mDelete Library .a $(CO_DELET)$(TARGET)\033[3;32m [√]\033[0m\n"
+	@$(MAKE) -C ./lib/libft fclean
+	@$(MAKE) -C ./lib/bettermlx fclean
+	@printf "\033[1;31mDelete Library .a $(CO_DELET)$(NAME)\033[3;32m [√]\033[0m\n"
 
 clean_all: fclean_library fclean
 
@@ -129,10 +122,9 @@ norme:
 #									Clena & Compilation							#
 #################################################################################
 
-re: fclean all
+re: fclean
+	$(MAKE) all
 
 re_all: fclean fclean_library all
 
 .PHONY: re fclean clean all gmk norme
-
--include $(DEPENDES)
