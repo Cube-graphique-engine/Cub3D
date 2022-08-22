@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:01:01 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/06 00:14:20 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/21 23:19:17 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,3 @@ int	main(int ac, char **av)
 	start_game(game);
 	return (EXIT_SUCCESS);
 }
-
-//free all

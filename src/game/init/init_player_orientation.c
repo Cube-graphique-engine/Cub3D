@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/15 17:26:14 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/15 21:34:17 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/22 14:51:47 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,7 @@
 
 static void	get_player_info(t_player *player)
 {
-	player->spawn.vx = player->pos_x;
-	player->spawn.vy = player->pos_y;
+	player->spawn = create_vector(player->pos_x, player->pos_y, 0);
 	player->pos = create_vector(player->pos_x + 0.5, player->pos_y + 0.5, 0);
 }
 

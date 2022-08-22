@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/18 21:26:02 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/21 15:38:07 by plavergn         ###   ########lyon.fr   */
+/*   Updated: 2022/08/22 11:28:53 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,10 @@ static float	get_vx(t_window *window)
 
 static void	pos_player(t_game *game, t_vector3 pred)
 {
-	if (game->map->str_map[(int)pred.vy][(int)game->player->pos.vx] != '1')
+	game->map->str_map[game->player->pos_y][game->player->pos_x] = '0';
+	if (game->map->str_map[(int)pred.vy][(int)game->player->pos.vx] == '0')
 		game->player->pos.vy = pred.vy;
-	if (game->map->str_map[(int)game->player->pos.vy][(int)pred.vx] != '1')
+	if (game->map->str_map[(int)game->player->pos.vy][(int)pred.vx] == '0')
 		game->player->pos.vx = pred.vx;
 }
 
@@ -50,9 +51,9 @@ void	player_move(t_game *game, t_window *window)
 		return ;
 	angle = atan2(dir.vy, dir.vx);
 	pred.vx = game->player->pos.vx + (dir.vx != 0) \
-	* ((game->player->cam.vx * game->player->speed) * -cos(angle));
+		* ((game->player->cam.vx * game->player->speed) * -cos(angle));
 	pred.vy = game->player->pos.vy + (dir.vx != 0) \
-	* ((game->player->cam.vy * game->player->speed) * -cos(angle));
+		* ((game->player->cam.vy * game->player->speed) * -cos(angle));
 	pred.vx += (dir.vy != 0) * ((game->player->direction.vx * \
 		game->player->speed) * sin(angle));
 	pred.vy += (dir.vy != 0) * ((game->player->direction.vy * \

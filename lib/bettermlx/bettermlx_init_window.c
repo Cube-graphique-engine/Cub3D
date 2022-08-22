@@ -32,6 +32,5 @@ t_window	*bettermlx_init_window(
 	window->mlx_ptr = mlx_init();
 	window->win_ptr = mlx_new_window(window->mlx_ptr, width, height, title);
 	window->image = bettermlx_init_image(window, window->width, window->height);
-	// mlx_do_key_autorepeatoff(window->mlx_ptr);
 	return (window);
 }

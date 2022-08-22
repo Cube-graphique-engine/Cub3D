@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "bettermlx.h"
-//t_image == image principale
 
 void	bettermlx_set_color(t_image *image, t_vector3 pixel_coordinates,
 	t_color color, float darkness)

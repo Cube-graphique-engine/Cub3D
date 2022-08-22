@@ -219,6 +219,6 @@ char	**copy_str_array(char **str_array);
 **	Return:
 **	Position or -1.
 */
-int	ft_strichr(const char *str, int to_find);
+int		ft_strichr(const char *str, int to_find);
 
 #endif

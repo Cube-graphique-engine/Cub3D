@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:02:48 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/20 19:24:19 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/21 23:19:17 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,18 @@
 # include <libft.h>
 # include <bettermlx_struct.h>
 # include <math.h>
+
+typedef struct s_vect2i
+{
+	int	x;
+	int	y;
+}				t_vect2i;
+
+typedef struct s_vect2f
+{
+	float	x;
+	float	y;
+}				t_vect2f;
 
 typedef struct s_ray
 {
@@ -46,13 +58,10 @@ typedef struct s_player
 	t_vector3	pos;
 	t_vector3	cam;
 	t_vector3	direction;
-	t_vector3	delta;
 	t_vector3	spawn;
 	float		fov;
 	float		sensi;
 	float		speed;
-	float		angle;
-	float		half_size;
 	char		orientation;
 }				t_player;
 
@@ -73,7 +82,6 @@ typedef struct s_map
 	char	**map;
 	char	**str_map;
 	char	**file;
-	int		*bit_map;
 	size_t	height;
 	size_t	width;
 	size_t	start;

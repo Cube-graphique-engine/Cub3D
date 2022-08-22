@@ -6,7 +6,7 @@
 /*   By: mathmart <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/25 11:42:09 by mathmart          #+#    #+#             */
-/*   Updated: 2022/07/04 21:01:36 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/22 17:25:49 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,7 +98,7 @@ void			bettermlx_pixel_put(t_window *window, \
 **	Put image in window window.
 **	./bettermlx/display/bettermlx_put_image.c
 */
-void	bettermlx_put_image(t_window *window, \
+void			bettermlx_put_image(t_window *window, \
 			t_image *image, \
 			int x, \
 			int y);

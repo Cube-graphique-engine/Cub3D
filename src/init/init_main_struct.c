@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:14:10 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/15 17:13:44 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/21 23:19:17 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,6 @@ static t_player	*init_player(void)
 	player->pos.vy = 0;
 	player->pos.vx = 0;
 	player->pos.vz = 0;
-	player->angle = 0;
-	player->half_size = 0;
-	player->delta = create_vector(0, 0, 0);
 	player->orientation = 'm';
 	return (player);
 }
@@ -56,7 +53,6 @@ static t_map	*init_map_struct(void)
 		return (NULL);
 	map->map = NULL;
 	map->str_map = NULL;
-	map->bit_map = NULL;
 	map->file = NULL;
 	map->start = 0;
 	map->end = 0;
