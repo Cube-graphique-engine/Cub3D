@@ -6,13 +6,13 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/15 19:45:28 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/22 11:08:53 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/24 15:07:36 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cube.h"
 
-static t_image 	*get_dir_wall(t_game *game, t_ray *ray)
+static t_image	*get_dir_wall(t_game *game, t_ray *ray)
 {
 	if (ray->side == 0 && ray->ray_dist.vx > 0)
 		return (game->e_image);

@@ -1,0 +1,506 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mathismartini/CLionProjects/Cub3D'
+/Library/Developer/CommandLineTools/usr/bin/make -C ./lib/libft
+make[1]: Entering directory `/Users/mathismartini/CLionProjects/Cub3D/lib/libft'
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c add_vector_coord.c -o add_vector_coord.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35madd_vector_coord.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c add_vector_vector.c -o add_vector_vector.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35madd_vector_vector.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c color_to_int.c -o color_to_int.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mcolor_to_int.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c copy_str_array.c -o copy_str_array.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mcopy_str_array.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c create_color.c -o create_color.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mcreate_color.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c create_icolor.c -o create_icolor.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mcreate_icolor.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c create_interval.c -o create_interval.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mcreate_interval.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c create_point3.c -o create_point3.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mcreate_point3.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c create_vector.c -o create_vector.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mcreate_vector.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c distance2.c -o distance2.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mdistance2.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c distance3.c -o distance3.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mdistance3.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c distance_point3.c -o distance_point3.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mdistance_point3.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c distance_square2.c -o distance_square2.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mdistance_square2.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c distance_square3.c -o distance_square3.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mdistance_square3.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c distance_square_point3.c -o distance_square_point3.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mdistance_square_point3.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c div_vector_coord.c -o div_vector_coord.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mdiv_vector_coord.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c div_vector_value.c -o div_vector_value.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mdiv_vector_value.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c div_vector_vector.c -o div_vector_vector.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mdiv_vector_vector.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_abs.c -o ft_abs.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_abs.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_add_str_to_str_array.c -o ft_add_str_to_str_array.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_add_str_to_str_array.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_append_char_to_str.c -o ft_append_char_to_str.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_append_char_to_str.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_append_strs.c -o ft_append_strs.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_append_strs.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_atoi.c -o ft_atoi.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_atoi.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_atoll.c -o ft_atoll.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_atoll.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_bzero.c -o ft_bzero.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_bzero.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_calloc.c -o ft_calloc.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_calloc.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_close_file.c -o ft_close_file.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_close_file.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_contains_char.c -o ft_contains_char.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_contains_char.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_count_file_lines.c -o ft_count_file_lines.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_count_file_lines.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_create_file_content.c -o ft_create_file_content.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_create_file_content.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_ctostr.c -o ft_ctostr.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_ctostr.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_destroy_file_content.c -o ft_destroy_file_content.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_destroy_file_content.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_destroy_splitted.c -o ft_destroy_splitted.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_destroy_splitted.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_destroy_string_array.c -o ft_destroy_string_array.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_destroy_string_array.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_fabs.c -o ft_fabs.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_fabs.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_fill_file_content.c -o ft_fill_file_content.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_fill_file_content.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_find_char.c -o ft_find_char.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_find_char.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_fmax.c -o ft_fmax.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_fmax.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_fmin.c -o ft_fmin.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_fmin.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_get_file_content.c -o ft_get_file_content.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_get_file_content.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_get_splitted_size.c -o ft_get_splitted_size.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_get_splitted_size.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_get_string_array_length.c -o ft_get_string_array_length.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_get_string_array_length.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_iabsui.c -o ft_iabsui.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_iabsui.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_ll_length.c -o ft_ll_length.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_ll_length.c"
+ 
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_lltoa_ibase.c -o ft_lltoa_ibase.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_lltoa_ibase.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_lowercase_char.c -o ft_lowercase_char.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_lowercase_char.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_map.c -o ft_map.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_map.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_max.c -o ft_max.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_max.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_memset.c -o ft_memset.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_memset.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_min.c -o ft_min.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_min.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_natoi.c -o ft_natoi.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_natoi.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_open_file.c -o ft_open_file.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_open_file.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_printf.c -o ft_printf.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_printf.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putchar.c -o ft_putchar.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putchar.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putchar_err.c -o ft_putchar_err.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putchar_err.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putchar_errnl.c -o ft_putchar_errnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putchar_errnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putchar_fd.c -o ft_putchar_fd.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putchar_fd.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putchar_fdnl.c -o ft_putchar_fdnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putchar_fdnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putchar_nl.c -o ft_putchar_nl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putchar_nl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_puti.c -o ft_puti.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_puti.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_puti_err.c -o ft_puti_err.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_puti_err.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_puti_errnl.c -o ft_puti_errnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_puti_errnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_puti_fd.c -o ft_puti_fd.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_puti_fd.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_puti_fdnl.c -o ft_puti_fdnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_puti_fdnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_puti_nl.c -o ft_puti_nl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_puti_nl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putl.c -o ft_putl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putl_err.c -o ft_putl_err.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putl_err.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putl_errnl.c -o ft_putl_errnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putl_errnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putl_fd.c -o ft_putl_fd.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putl_fd.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putl_fdnl.c -o ft_putl_fdnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putl_fdnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putl_nl.c -o ft_putl_nl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putl_nl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putll.c -o ft_putll.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putll.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putll_err.c -o ft_putll_err.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putll_err.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putll_errnl.c -o ft_putll_errnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putll_errnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putll_fd.c -o ft_putll_fd.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putll_fd.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putll_fdnl.c -o ft_putll_fdnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putll_fdnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putll_nl.c -o ft_putll_nl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putll_nl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putnchar.c -o ft_putnchar.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putnchar.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putnchar_err.c -o ft_putnchar_err.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putnchar_err.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putnchar_errnl.c -o ft_putnchar_errnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putnchar_errnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putnchar_fd.c -o ft_putnchar_fd.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putnchar_fd.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putnchar_fdnl.c -o ft_putnchar_fdnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putnchar_fdnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putnchar_nl.c -o ft_putnchar_nl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putnchar_nl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putstr.c -o ft_putstr.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putstr.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putstr_err.c -o ft_putstr_err.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putstr_err.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putstr_errnl.c -o ft_putstr_errnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putstr_errnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putstr_fd.c -o ft_putstr_fd.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putstr_fd.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putstr_fdnl.c -o ft_putstr_fdnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putstr_fdnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putstr_nl.c -o ft_putstr_nl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putstr_nl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putui.c -o ft_putui.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putui.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putui_err.c -o ft_putui_err.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putui_err.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putui_errnl.c -o ft_putui_errnl.o
+ 
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putui_errnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putui_fd.c -o ft_putui_fd.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putui_fd.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putui_fdnl.c -o ft_putui_fdnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putui_fdnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putui_nl.c -o ft_putui_nl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putui_nl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putul.c -o ft_putul.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putul.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putul_err.c -o ft_putul_err.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putul_err.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putul_errnl.c -o ft_putul_errnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putul_errnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putul_fd.c -o ft_putul_fd.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putul_fd.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putul_fdnl.c -o ft_putul_fdnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putul_fdnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putul_nl.c -o ft_putul_nl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putul_nl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putull.c -o ft_putull.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putull.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putull_err.c -o ft_putull_err.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putull_err.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putull_errnl.c -o ft_putull_errnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putull_errnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putull_fd.c -o ft_putull_fd.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putull_fd.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putull_fdnl.c -o ft_putull_fdnl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putull_fdnl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_putull_nl.c -o ft_putull_nl.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_putull_nl.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_read_next_line.c -o ft_read_next_line.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_read_next_line.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_split.c -o ft_split.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_split.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_str_endwith.c -o ft_str_endwith.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_str_endwith.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_strcmp.c -o ft_strcmp.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_strcmp.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_strcpy.c -o ft_strcpy.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_strcpy.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_strichr.c -o ft_strichr.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_strichr.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_strdup.c -o ft_strdup.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_strdup.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_strlen.c -o ft_strlen.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_strlen.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_strmult_back.c -o ft_strmult_back.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_strmult_back.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_strmult_front.c -o ft_strmult_front.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_strmult_front.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_strncmp.c -o ft_strncmp.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_strncmp.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_strndup.c -o ft_strndup.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_strndup.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_tolower.c -o ft_tolower.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_tolower.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_toupper.c -o ft_toupper.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_toupper.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_ull_ibase_length.c -o ft_ull_ibase_length.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_ull_ibase_length.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_ull_length.c -o ft_ull_length.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_ull_length.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_ulltoa_ibase.c -o ft_ulltoa_ibase.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_ulltoa_ibase.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c ft_uppercase_char.c -o ft_uppercase_char.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mft_uppercase_char.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c is_alpha.c -o is_alpha.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mis_alpha.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c is_alphanumeric.c -o is_alphanumeric.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mis_alphanumeric.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c is_ascii.c -o is_ascii.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mis_ascii.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c is_lowercase.c -o is_lowercase.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mis_lowercase.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c is_numberstr.c -o is_numberstr.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mis_numberstr.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c is_numeric.c -o is_numeric.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mis_numeric.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c is_printable.c -o is_printable.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mis_printable.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c is_space.c -o is_space.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mis_space.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c is_uppercase.c -o is_uppercase.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mis_uppercase.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c is_whitespace.c -o is_whitespace.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mis_whitespace.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c list_add_back_elem.c -o list_add_back_elem.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mlist_add_back_elem.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c list_add_back_new.c -o list_add_back_new.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mlist_add_back_new.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c list_add_front_elem.c -o list_add_front_elem.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mlist_add_front_elem.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c list_add_front_new.c -o list_add_front_new.o
+ 
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mlist_add_front_new.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c list_clear.c -o list_clear.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mlist_clear.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c list_create_elem.c -o list_create_elem.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mlist_create_elem.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c list_get.c -o list_get.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mlist_get.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c list_last.c -o list_last.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mlist_last.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c list_remove.c -o list_remove.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mlist_remove.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c list_size.c -o list_size.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mlist_size.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c mult_vector_coord.c -o mult_vector_coord.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mmult_vector_coord.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c mult_vector_value.c -o mult_vector_value.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mmult_vector_value.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c mult_vector_vector.c -o mult_vector_vector.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mmult_vector_vector.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c normalize_vector.c -o normalize_vector.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mnormalize_vector.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_c_processor.c -o printf_c_processor.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_c_processor.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_create_printable.c -o printf_create_printable.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_create_printable.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_display.c -o printf_display.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_display.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_diuxx_processor.c -o printf_diuxx_processor.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_diuxx_processor.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_dot_parser.c -o printf_dot_parser.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_dot_parser.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_is_valid_flag.c -o printf_is_valid_flag.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_is_valid_flag.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_is_valid_type.c -o printf_is_valid_type.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_is_valid_type.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_minus_parser.c -o printf_minus_parser.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_minus_parser.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_p_processor.c -o printf_p_processor.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_p_processor.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_parse_printable.c -o printf_parse_printable.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_parse_printable.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_pcrt_processor.c -o printf_pcrt_processor.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_pcrt_processor.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_preprocess.c -o printf_preprocess.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_preprocess.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_process.c -o printf_process.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_process.c"
+ 
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_s_processor.c -o printf_s_processor.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_s_processor.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_star_parser.c -o printf_star_parser.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_star_parser.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c printf_zero_parser.c -o printf_zero_parser.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mprintf_zero_parser.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c quick_sort.c -o quick_sort.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mquick_sort.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c rotate_vector.c -o rotate_vector.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mrotate_vector.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c rotate_vector_x.c -o rotate_vector_x.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mrotate_vector_x.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c rotate_vector_y.c -o rotate_vector_y.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mrotate_vector_y.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c rotate_vector_z.c -o rotate_vector_z.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35mrotate_vector_z.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c sort_str_array.c -o sort_str_array.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35msort_str_array.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c sub_vector_coord.c -o sub_vector_coord.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35msub_vector_coord.c"
+gcc -Wall -Wextra -Werror -O3 -Ofast -flto -march=native -ffast-math -I ./ -c sub_vector_vector.c -o sub_vector_vector.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;35msub_vector_vector.c"
+ar rc libft.a add_vector_coord.o add_vector_vector.o color_to_int.o copy_str_array.o create_color.o create_icolor.o create_interval.o create_point3.o create_vector.o distance2.o distance3.o distance_point3.o distance_square2.o distance_square3.o distance_square_point3.o div_vector_coord.o div_vector_value.o div_vector_vector.o ft_abs.o ft_add_str_to_str_array.o ft_append_char_to_str.o ft_append_strs.o ft_atoi.o ft_atoll.o ft_bzero.o ft_calloc.o ft_close_file.o ft_contains_char.o ft_count_file_lines.o ft_create_file_content.o ft_ctostr.o ft_destroy_file_content.o ft_destroy_splitted.o ft_destroy_string_array.o ft_fabs.o ft_fill_file_content.o ft_find_char.o ft_fmax.o ft_fmin.o ft_get_file_content.o ft_get_splitted_size.o ft_get_string_array_length.o ft_iabsui.o ft_ll_length.o ft_lltoa_ibase.o ft_lowercase_char.o ft_map.o ft_max.o ft_memset.o ft_min.o ft_natoi.o ft_open_file.o ft_printf.o ft_putchar.o ft_putchar_err.o ft_putchar_errnl.o ft_putchar_fd.o ft_putchar_fdnl.o ft_putchar_nl.o ft_puti.o ft_puti_err.o ft_puti_errnl.o ft_puti_fd.o ft_puti_fdnl.o ft_puti_nl.o ft_putl.o ft_putl_err.o ft_putl_errnl.o ft_putl_fd.o ft_putl_fdnl.o ft_putl_nl.o ft_putll.o ft_putll_err.o ft_putll_errnl.o ft_putll_fd.o ft_putll_fdnl.o ft_putll_nl.o ft_putnchar.o ft_putnchar_err.o ft_putnchar_errnl.o ft_putnchar_fd.o ft_putnchar_fdnl.o ft_putnchar_nl.o ft_putstr.o ft_putstr_err.o ft_putstr_errnl.o ft_putstr_fd.o ft_putstr_fdnl.o ft_putstr_nl.o ft_putui.o ft_putui_err.o ft_putui_errnl.o ft_putui_fd.o ft_putui_fdnl.o ft_putui_nl.o ft_putul.o ft_putul_err.o ft_putul_errnl.o ft_putul_fd.o ft_putul_fdnl.o ft_putul_nl.o ft_putull.o ft_putull_err.o ft_putull_errnl.o ft_putull_fd.o ft_putull_fdnl.o ft_putull_nl.o ft_read_next_line.o ft_split.o ft_str_endwith.o ft_strcmp.o ft_strcpy.o ft_strichr.o ft_strdup.o ft_strlen.o ft_strmult_back.o ft_strmult_front.o ft_strncmp.o ft_strndup.o ft_tolower.o ft_toupper.o ft_ull_ibase_length.o ft_ull_length.o ft_ulltoa_ibase.o ft_uppercase_char.o is_alpha.o is_alphanumeric.o is_ascii.o is_lowercase.o is_numberstr.o is_numeric.o is_printable.o is_space.o is_uppercase.o is_whitespace.o list_add_back_elem.o list_add_back_new.o list_add_front_elem.o list_add_front_new.o list_clear.o list_create_elem.o list_get.o list_last.o list_remove.o list_size.o mult_vector_coord.o mult_vector_value.o mult_vector_vector.o normalize_vector.o printf_c_processor.o printf_create_printable.o printf_display.o printf_diuxx_processor.o printf_dot_parser.o printf_is_valid_flag.o printf_is_valid_type.o printf_minus_parser.o printf_p_processor.o printf_parse_printable.o printf_pcrt_processor.o printf_preprocess.o printf_process.o printf_s_processor.o printf_star_parser.o printf_zero_parser.o quick_sort.o rotate_vector.o rotate_vector_x.o rotate_vector_y.o rotate_vector_z.o sort_str_array.o sub_vector_coord.o sub_vector_vector.o
+printf "\033[2K\r\033[0;34mlibft.a: \033[0;32mCompiled [√]\n"
+make[1]: Leaving directory `/Users/mathismartini/CLionProjects/Cub3D/lib/libft'
+/Library/Developer/CommandLineTools/usr/bin/make -C ./lib/minilibx
+ 
+make[1]: Entering directory `/Users/mathismartini/CLionProjects/Cub3D/lib/minilibx'
+cc -O2 -DSTRINGPUTX11 -Wno-deprecated-declarations   -c -o mlx_shaders.o mlx_shaders.c
+cc -O2 -DSTRINGPUTX11 -Wno-deprecated-declarations   -c -o mlx_new_window.o mlx_new_window.m
+cc -O2 -DSTRINGPUTX11 -Wno-deprecated-declarations   -c -o mlx_init_loop.o mlx_init_loop.m
+cc -O2 -DSTRINGPUTX11 -Wno-deprecated-declarations   -c -o mlx_new_image.o mlx_new_image.m
+cc -O2 -DSTRINGPUTX11 -Wno-deprecated-declarations   -c -o mlx_xpm.o mlx_xpm.c
+cc -O2 -DSTRINGPUTX11 -Wno-deprecated-declarations   -c -o mlx_int_str_to_wordtab.o mlx_int_str_to_wordtab.c
+cc -O2 -DSTRINGPUTX11 -Wno-deprecated-declarations   -c -o mlx_png.o mlx_png.c
+cc -O2 -DSTRINGPUTX11 -Wno-deprecated-declarations   -c -o mlx_mouse.o mlx_mouse.m
+ar -r libmlx.a mlx_shaders.o mlx_new_window.o mlx_init_loop.o mlx_new_image.o mlx_xpm.o mlx_int_str_to_wordtab.o mlx_png.o mlx_mouse.o
+ranlib libmlx.a
+make[1]: Leaving directory `/Users/mathismartini/CLionProjects/Cub3D/lib/minilibx'
+/Library/Developer/CommandLineTools/usr/bin/make -C ./lib/bettermlx
+make[1]: Entering directory `/Users/mathismartini/CLionProjects/Cub3D/lib/bettermlx'
+cc    -c -o bettermlx_clean_display.o bettermlx_clean_display.c
+cc    -c -o bettermlx_destroy_image.o bettermlx_destroy_image.c
+cc    -c -o bettermlx_destroy_window.o bettermlx_destroy_window.c
+cc    -c -o bettermlx_draw_line.o bettermlx_draw_line.c
+cc    -c -o bettermlx_get_color.o bettermlx_get_color.c
+cc    -c -o bettermlx_get_memory_position.o bettermlx_get_memory_position.c
+cc    -c -o bettermlx_hook.o bettermlx_hook.c
+cc    -c -o bettermlx_init_image.o bettermlx_init_image.c
+cc    -c -o bettermlx_init_window.o bettermlx_init_window.c
+cc    -c -o bettermlx_init_xpm_image.o bettermlx_init_xpm_image.c
+cc    -c -o bettermlx_pixel_put.o bettermlx_pixel_put.c
+cc    -c -o bettermlx_put_image.o bettermlx_put_image.c
+cc    -c -o bettermlx_register_loop.o bettermlx_register_loop.c
+cc    -c -o bettermlx_render.o bettermlx_render.c
+cc    -c -o bettermlx_set_color.o bettermlx_set_color.c
+ar -r libbettermlx.a bettermlx_clean_display.o bettermlx_destroy_image.o bettermlx_destroy_window.o bettermlx_draw_line.o bettermlx_get_color.o bettermlx_get_memory_position.o bettermlx_hook.o bettermlx_init_image.o bettermlx_init_window.o bettermlx_init_xpm_image.o bettermlx_pixel_put.o bettermlx_put_image.o bettermlx_register_loop.o bettermlx_render.o bettermlx_set_color.o
+ranlib libbettermlx.a
+make[1]: Leaving directory `/Users/mathismartini/CLionProjects/Cub3D/lib/bettermlx'
+printf "\033[1;32mCreate OBJS_DIR \033[4;31m\033[3;32m [√]\033[0m\n"
+mkdir -p Objects/./src/init
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/init/init_main_struct.c -o Objects/./src/init/init_main_struct.o
+printf "\033[2K\r\033[3;35msrc/init/init_main_struct.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/init
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/init/init_game.c -o Objects/./src/game/init/init_game.o
+printf "\033[2K\r\033[3;35msrc/game/init/init_game.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/init
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/init/init_player_orientation.c -o Objects/./src/game/init/init_player_orientation.o
+printf "\033[2K\r\033[3;35msrc/game/init/init_player_orientation.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/raycasting
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/raycasting/display_walls.c -o Objects/./src/game/raycasting/display_walls.o
+printf "\033[2K\r\033[3;35msrc/game/raycasting/display_walls.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/raycasting
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/raycasting/display_line.c -o Objects/./src/game/raycasting/display_line.o
+printf "\033[2K\r\033[3;35msrc/game/raycasting/display_line.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/raycasting
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/raycasting/raycasting.c -o Objects/./src/game/raycasting/raycasting.o
+printf "\033[2K\r\033[3;35msrc/game/raycasting/raycasting.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/raycasting
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/raycasting/ray_steps.c -o Objects/./src/game/raycasting/ray_steps.o
+printf "\033[2K\r\033[3;35msrc/game/raycasting/ray_steps.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/raycasting
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/raycasting/init_size_rays.c -o Objects/./src/game/raycasting/init_size_rays.o
+printf "\033[2K\r\033[3;35msrc/game/raycasting/init_size_rays.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/images
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/images/get_images.c -o Objects/./src/game/images/get_images.o
+printf "\033[2K\r\033[3;35msrc/game/images/get_images.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/utils
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/utils/destroy_game.c -o Objects/./src/game/utils/destroy_game.o
+printf "\033[2K\r\033[3;35msrc/game/utils/destroy_game.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/utils
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/utils/draw_cube_left.c -o Objects/./src/game/utils/draw_cube_left.o
+printf "\033[2K\r\033[3;35msrc/game/utils/draw_cube_left.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/utils
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/utils/key_press_hook.c -o Objects/./src/game/utils/key_press_hook.o
+printf "\033[2K\r\033[3;35msrc/game/utils/key_press_hook.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/utils
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/utils/draw_cube.c -o Objects/./src/game/utils/draw_cube.o
+printf "\033[2K\r\033[3;35msrc/game/utils/draw_cube.c: \033[3;36mloading..\033[0m"
+ 
+mkdir -p Objects/./src/game
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/start_game.c -o Objects/./src/game/start_game.o
+printf "\033[2K\r\033[3;35msrc/game/start_game.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/movement
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/movement/mouse.c -o Objects/./src/game/movement/mouse.o
+printf "\033[2K\r\033[3;35msrc/game/movement/mouse.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/movement
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/movement/rotate.c -o Objects/./src/game/movement/rotate.o
+printf "\033[2K\r\033[3;35msrc/game/movement/rotate.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/game/movement
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/game/movement/player_move.c -o Objects/./src/game/movement/player_move.o
+printf "\033[2K\r\033[3;35msrc/game/movement/player_move.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/main.c -o Objects/./src/main.o
+printf "\033[2K\r\033[3;35msrc/main.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/get_map_info.c -o Objects/./src/parsing/get_map_info.o
+printf "\033[2K\r\033[3;35msrc/parsing/get_map_info.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/parse_map.c -o Objects/./src/parsing/parse_map.o
+printf "\033[2K\r\033[3;35msrc/parsing/parse_map.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing/utils
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/utils/valide_map.c -o Objects/./src/parsing/utils/valide_map.o
+printf "\033[2K\r\033[3;35msrc/parsing/utils/valide_map.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing/utils
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/utils/check_line_space.c -o Objects/./src/parsing/utils/check_line_space.o
+printf "\033[2K\r\033[3;35msrc/parsing/utils/check_line_space.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing/utils
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/utils/size_char_tab.c -o Objects/./src/parsing/utils/size_char_tab.o
+printf "\033[2K\r\033[3;35msrc/parsing/utils/size_char_tab.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing/utils
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/utils/check_base.c -o Objects/./src/parsing/utils/check_base.o
+printf "\033[2K\r\033[3;35msrc/parsing/utils/check_base.c: \033[3;36mloading..\033[0m"
+ 
+mkdir -p Objects/./src/parsing/utils
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/utils/get_player_position.c -o Objects/./src/parsing/utils/get_player_position.o
+printf "\033[2K\r\033[3;35msrc/parsing/utils/get_player_position.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing/utils
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/utils/check_format_file_xpm.c -o Objects/./src/parsing/utils/check_format_file_xpm.o
+printf "\033[2K\r\033[3;35msrc/parsing/utils/check_format_file_xpm.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing/utils
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/utils/check_format_file_cub.c -o Objects/./src/parsing/utils/check_format_file_cub.o
+printf "\033[2K\r\033[3;35msrc/parsing/utils/check_format_file_cub.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing/utils
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/utils/colors.c -o Objects/./src/parsing/utils/colors.o
+printf "\033[2K\r\033[3;35msrc/parsing/utils/colors.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/get_map.c -o Objects/./src/parsing/get_map.o
+printf "\033[2K\r\033[3;35msrc/parsing/get_map.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/get_size_map.c -o Objects/./src/parsing/get_size_map.o
+printf "\033[2K\r\033[3;35msrc/parsing/get_size_map.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/check_texture_info.c -o Objects/./src/parsing/check_texture_info.o
+printf "\033[2K\r\033[3;35msrc/parsing/check_texture_info.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing/error
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/error/player_error.c -o Objects/./src/parsing/error/player_error.o
+printf "\033[2K\r\033[3;35msrc/parsing/error/player_error.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing/error
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/error/format_errors.c -o Objects/./src/parsing/error/format_errors.o
+printf "\033[2K\r\033[3;35msrc/parsing/error/format_errors.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing/error
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/error/map_error.c -o Objects/./src/parsing/error/map_error.o
+printf "\033[2K\r\033[3;35msrc/parsing/error/map_error.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing/error
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/error/texture_error.c -o Objects/./src/parsing/error/texture_error.o
+printf "\033[2K\r\033[3;35msrc/parsing/error/texture_error.c: \033[3;36mloading..\033[0m"
+mkdir -p Objects/./src/parsing/debug
+gcc -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include -c src/parsing/debug/debug_display.c -o Objects/./src/parsing/debug/debug_display.o
+printf "\033[2K\r\033[3;35msrc/parsing/debug/debug_display.c: \033[3;36mloading..\033[0m"
+gcc -lmlx -L ./lib/minilibx -L ./lib/bettermlx/ -lbettermlx -L ./lib/libft/ -lft -lm -framework OpenGL -framework AppKit -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe  Objects/./src/init/init_main_struct.o Objects/./src/game/init/init_game.o Objects/./src/game/init/init_player_orientation.o Objects/./src/game/raycasting/display_walls.o Objects/./src/game/raycasting/display_line.o Objects/./src/game/raycasting/raycasting.o Objects/./src/game/raycasting/ray_steps.o Objects/./src/game/raycasting/init_size_rays.o Objects/./src/game/images/get_images.o Objects/./src/game/utils/destroy_game.o Objects/./src/game/utils/draw_cube_left.o Objects/./src/game/utils/key_press_hook.o Objects/./src/game/utils/draw_cube.o Objects/./src/game/start_game.o Objects/./src/game/movement/mouse.o Objects/./src/game/movement/rotate.o Objects/./src/game/movement/player_move.o Objects/./src/main.o Objects/./src/parsing/get_map_info.o Objects/./src/parsing/parse_map.o Objects/./src/parsing/utils/valide_map.o Objects/./src/parsing/utils/check_line_space.o Objects/./src/parsing/utils/size_char_tab.o Objects/./src/parsing/utils/check_base.o Objects/./src/parsing/utils/get_player_position.o Objects/./src/parsing/utils/check_format_file_xpm.o Objects/./src/parsing/utils/check_format_file_cub.o Objects/./src/parsing/utils/colors.o Objects/./src/parsing/get_map.o Objects/./src/parsing/get_size_map.o Objects/./src/parsing/check_texture_info.o Objects/./src/parsing/error/player_error.o Objects/./src/parsing/error/format_errors.o Objects/./src/parsing/error/map_error.o Objects/./src/parsing/error/texture_error.o Objects/./src/parsing/debug/debug_display.o -o cub3D
+printf "\033[2K\r\033[4;34mcub3D\033[0m\033[3;34m: \033[1;32mCompiled [√]\033[0m\n"
+make: Leaving directory `/Users/mathismartini/CLionProjects/Cub3D'
+ 

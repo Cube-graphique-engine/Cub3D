@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/03 01:08:06 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/07/25 18:37:49 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/24 19:36:43 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,18 @@ static void	error_colors(t_game *game)
 	free(game->texture->s_path);
 	free(game->texture->w_path);
 	free(game->texture->e_path);
-	free(game->map->file);
+	if (game->debug)
+	{
+		free(game->texture->d_ceilling);
+		free(game->texture->d_floor);
+	}
 	free(game->texture);
+	ft_destroy_string_array(&game->map->map);
+	ft_destroy_string_array(&game->map->str_map);
 	free(game->map);
+	free(game->player);
 	free(game);
+	game = NULL;
 	exit(EXIT_FAILURE);
 }
 
@@ -60,13 +68,15 @@ static unsigned char	to_convert(char **value, t_game *game)
 	return ((unsigned char)convert);
 }
 
-static int	get_numbers(const char *info)
+static int	get_numbers(const char *info, t_game *game)
 {
 	int	i;
 
 	i = ft_strichr(info, ' ');
 	while (info[i] == ' ')
 		i++;
+	check_info(info, i, game);
+	check_numbers(info, game);
 	return (i);
 }
 
@@ -77,7 +87,7 @@ t_color	add_color(const char *info, t_game *game)
 	int		j;
 	char	**value;
 
-	i = get_numbers(info);
+	i = get_numbers(info, game);
 	if (i <= 0)
 		error_colors(game);
 	value = ft_calloc(4, sizeof(char *));

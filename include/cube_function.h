@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 17:44:43 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/08/21 23:19:18 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/24 15:07:34 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,8 @@ bool	check_line_space(const char *map);
 bool	is_in_base(char c, const char *base);
 void	get_player_position(t_game *game, char **map);
 bool	is_validate_map(t_map *map, int x, int y);
+void	check_numbers(const char *info, t_game *game);
+void	check_info(const char *info, int index, t_game *game);
 
 /* ************************************************************************** */
 /*									Start_Game								  */

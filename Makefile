@@ -6,7 +6,7 @@
 #    By: mathmart <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/25 14:46:28 by mathmart          #+#    #+#              #
-#    Updated: 2022/08/21 20:22:45 by mathismartini    ###   ########.fr        #
+#    Updated: 2022/08/22 18:01:32 by mathmart         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,7 +43,7 @@ HEADS		+= ./lib/libft/libft.a ./lib/minilibx/libmlx.a ./lib/bettermlx/libbetterm
 OBJS		= $(SRCS:%.c=%.o)
 OBJ_DIR 	= Objects
 OBJ_PATH	= $(addprefix $(OBJ_DIR)/, $(OBJS))
-CFLAGS		= -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe -fsanitize=address -g3
+CFLAGS		= -Wall -Werror -Wextra -glldb -O3 -Ofast -flto -march=native -ffast-math -pipe #-fsanitize=address -g3
 INCLUDES	= -I ./lib/minilibx -I ./lib/libft -I ./lib/bettermlx/ -I ./Include
 INC_LIB		= -L ./lib/minilibx -L ./lib/bettermlx/ -lbettermlx
 LIB			= -lmlx $(INC_LIB) -L ./lib/libft/ -lft -lm
@@ -114,7 +114,7 @@ clean_all: fclean_library fclean
 
 norme:
 	@printf "\033[1;36m"
-	norminette -R CheckDefine ./includes/
+	norminette -R CheckDefine ./include/
 	@printf "\n\033[1;32m"
 	norminette -R CheckForbiddenSourceHeader ./src/
 

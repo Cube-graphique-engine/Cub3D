@@ -6,7 +6,7 @@
 /*   By: lduplain <lduplain@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/11 16:24:52 by lduplain          #+#    #+#             */
-/*   Updated: 2022/07/11 13:02:11 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/24 17:07:28 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ t_bool	is_numberstr(char *str)
 {
 	size_t	i;
 
+	if (str == NULL)
+		return (FALSE);
 	i = 0;
 	while (str[i] && (str[i] == '-' || str[i] == '+'))
 		i++;

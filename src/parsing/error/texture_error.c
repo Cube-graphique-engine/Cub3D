@@ -6,7 +6,7 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/04 17:23:02 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/07/04 17:35:17 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/24 16:41:38 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,18 @@ static void	error_directory(t_game *game)
 	free(game->texture->s_path);
 	free(game->texture->w_path);
 	free(game->texture->e_path);
-	free(game->map->file);
-	free(game->player);
+	if (game->debug)
+	{
+		free(game->texture->d_ceilling);
+		free(game->texture->d_floor);
+	}
 	free(game->texture);
+	ft_destroy_string_array(&game->map->map);
+	ft_destroy_string_array(&game->map->str_map);
 	free(game->map);
+	free(game->player);
 	free(game);
+	game = NULL;
 	exit(EXIT_FAILURE);
 }
 
@@ -34,11 +41,18 @@ static void	error_config(t_game *game)
 	free(game->texture->s_path);
 	free(game->texture->w_path);
 	free(game->texture->e_path);
-	free(game->map->file);
+	if (game->debug)
+	{
+		free(game->texture->d_ceilling);
+		free(game->texture->d_floor);
+	}
 	free(game->texture);
-	free(game->player);
+	ft_destroy_string_array(&game->map->map);
+	ft_destroy_string_array(&game->map->str_map);
 	free(game->map);
+	free(game->player);
 	free(game);
+	game = NULL;
 	exit(EXIT_FAILURE);
 }
 
@@ -49,11 +63,18 @@ static void	error_open_file(t_game *game)
 	free(game->texture->s_path);
 	free(game->texture->w_path);
 	free(game->texture->e_path);
-	free(game->map->file);
+	if (game->debug)
+	{
+		free(game->texture->d_ceilling);
+		free(game->texture->d_floor);
+	}
 	free(game->texture);
-	free(game->player);
+	ft_destroy_string_array(&game->map->map);
+	ft_destroy_string_array(&game->map->str_map);
 	free(game->map);
+	free(game->player);
 	free(game);
+	game = NULL;
 	exit(EXIT_FAILURE);
 }
 

@@ -6,12 +6,11 @@
 /*   By: mathismartini <mathismartini@student.42.fr>+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/01 18:51:36 by mathismartini     #+#    #+#             */
-/*   Updated: 2022/07/31 23:54:50 by mathismartini    ###   ########.fr       */
+/*   Updated: 2022/08/24 19:53:38 by mathismartini    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cube.h"
-#include "string.h"
 
 static void	get_info(t_game *game, char *tofind, char **texture)
 {
@@ -26,7 +25,7 @@ static void	get_info(t_game *game, char *tofind, char **texture)
 		{
 			if (ft_strncmp(game->map->file[i], tofind, ft_strlen(tofind)) == 0)
 			{
-				*texture = strdup(game->map->file[i]);
+				*texture = ft_strdup(game->map->file[i]);
 				return ;
 			}
 			j++;
@@ -63,6 +62,7 @@ static void	get_colors(t_game *game, char *to_find, t_color *color)
 		}
 		i++;
 	}
+	error_texture(CONFIG_ERROR, game);
 }
 
 static void	check_image_path(t_game *game)
